@@ -52,17 +52,17 @@
     "src": "public/website-assets/register/report_3.png"
   },
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-CuJXkYjK.css",
+    "file": "assets/tailwind-DX4PLAtu.css",
     "src": "resources/css/tailwind.css",
     "isEntry": true
   },
   "resources/js/react.jsx": {
-    "file": "assets/react-BRpNEJgC.js",
+    "file": "assets/react-CHaUnMIe.js",
     "name": "react",
     "src": "resources/js/react.jsx",
     "isEntry": true,
     "css": [
-      "assets/react-Brq2zKk-.css"
+      "assets/react-_EjRaM4H.css"
     ],
     "assets": [
       "assets/footer_logo-MSqnm7jf.png",
