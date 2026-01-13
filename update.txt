@@ -1,0 +1,4 @@
+edit this file to stop domain protection
+
+namespace MehediIitdu\CoreComponentRepository;
+class CoreComponentRepository

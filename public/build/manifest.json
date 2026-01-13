@@ -1,0 +1,81 @@
+{
+  "public/website-assets/blog/card.jpg": {
+    "file": "assets/card-Dvh_m0xn.jpg",
+    "src": "public/website-assets/blog/card.jpg"
+  },
+  "public/website-assets/footer/bg.png": {
+    "file": "assets/bg-xaV6BAwG.png",
+    "src": "public/website-assets/footer/bg.png"
+  },
+  "public/website-assets/home/FAQs.jpg": {
+    "file": "assets/FAQs-DP3_A7fQ.jpg",
+    "src": "public/website-assets/home/FAQs.jpg"
+  },
+  "public/website-assets/imgs/bg-mb.png": {
+    "file": "assets/bg-mb-C5ekBgLk.png",
+    "src": "public/website-assets/imgs/bg-mb.png"
+  },
+  "public/website-assets/imgs/bg-pc.png": {
+    "file": "assets/bg-pc-BQPfVZHU.png",
+    "src": "public/website-assets/imgs/bg-pc.png"
+  },
+  "public/website-assets/imgs/bg-tb.png": {
+    "file": "assets/bg-tb-DW3cOJeD.png",
+    "src": "public/website-assets/imgs/bg-tb.png"
+  },
+  "public/website-assets/imgs/website-logo.png": {
+    "file": "assets/website-logo-GqgKFTfC.png",
+    "src": "public/website-assets/imgs/website-logo.png"
+  },
+  "public/website-assets/logo/footer_logo.png": {
+    "file": "assets/footer_logo-MSqnm7jf.png",
+    "src": "public/website-assets/logo/footer_logo.png"
+  },
+  "public/website-assets/logo/header_logo.png": {
+    "file": "assets/footer_logo-MSqnm7jf.png",
+    "src": "public/website-assets/logo/footer_logo.png"
+  },
+  "public/website-assets/logo/logo-icon.png": {
+    "file": "assets/logo-icon-C46VIT4M.png",
+    "src": "public/website-assets/logo/logo-icon.png"
+  },
+  "public/website-assets/register/report_1.png": {
+    "file": "assets/report_1-BGpuZ6fx.png",
+    "src": "public/website-assets/register/report_1.png"
+  },
+  "public/website-assets/register/report_2.png": {
+    "file": "assets/report_2-CQZSqJRN.png",
+    "src": "public/website-assets/register/report_2.png"
+  },
+  "public/website-assets/register/report_3.png": {
+    "file": "assets/report_3-BcRBIOll.png",
+    "src": "public/website-assets/register/report_3.png"
+  },
+  "resources/css/tailwind.css": {
+    "file": "assets/tailwind-CuJXkYjK.css",
+    "src": "resources/css/tailwind.css",
+    "isEntry": true
+  },
+  "resources/js/react.jsx": {
+    "file": "assets/react-BRpNEJgC.js",
+    "name": "react",
+    "src": "resources/js/react.jsx",
+    "isEntry": true,
+    "css": [
+      "assets/react-Brq2zKk-.css"
+    ],
+    "assets": [
+      "assets/footer_logo-MSqnm7jf.png",
+      "assets/logo-icon-C46VIT4M.png",
+      "assets/FAQs-DP3_A7fQ.jpg",
+      "assets/report_1-BGpuZ6fx.png",
+      "assets/report_2-CQZSqJRN.png",
+      "assets/report_3-BcRBIOll.png",
+      "assets/card-Dvh_m0xn.jpg",
+      "assets/website-logo-GqgKFTfC.png",
+      "assets/bg-mb-C5ekBgLk.png",
+      "assets/bg-tb-DW3cOJeD.png",
+      "assets/bg-pc-BQPfVZHU.png"
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --font-tajawal: "Tajawal", sans-serif;
+
+    /* Primary colors */
+    --color-primary-100: #c9cddb;
+    --color-primary-200: #8e94a4;
+    --color-primary-300: #383b44;
+    --color-primary-400: #282a31;
+    --color-primary-500: #202228;
+
+    /* Secondary colors */
+    --color-secondary-100: #c2d7f2;
+    --color-secondary-200: #8fb4e4;
+    --color-secondary-300: #5c91d7;
+    --color-secondary-400: #296ec9;
+    --color-secondary-500: #004aad;
+
+    /* Gray colors */
+    --color-gray-100: #f8f8f8;
+    --color-gray-200: #e0e0e0;
+    --color-gray-300: #cdcdcd;
+    --color-gray-400: #a7a7a7;
+    --color-gray-500: #818181;
+
+    /* Other colors */
+    --color-success: #2bb900;
+    --color-error: #e40707;
+    --color-link: #0088ff;
+
+    --color-footer-header: #fefefe;
+    --color-footer-text: #fefefecc;
+}
+
+.custom-font-inter *, .custom-font-inter *::before, .custom-font-inter *::after {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.custom-font-tajawal *, .custom-font-tajawal *::before, .custom-font-tajawal *::after {
+  font-family: 'Tajawal', sans-serif !important;
+}
+
+::placeholder {
+    @apply font-inter;
+}
+
+body , body > * {
+  @apply m-0 max-w-[100vw] box-border ;
+}
+
+#main {
+    position: relative;
+    z-index: 1;
+}
+
+#main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.container {
+    @apply mx-auto sm:w-[90vw] md:w-[85vw]  lg:w-[80vw] max-w-[90vw];
+}
+
+.xl-container {
+  @apply xl:mx-auto  xl:w-[80vw] xl:max-w-[90vw];
+}
+.sm-container {
+  @apply sm:mx-auto sm:w-[90vw] md:w-[85vw] lg:w-[80vw] sm:max-w-[90vw];
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    @apply !absolute top-1/2 -translate-y-1/2 z-50  !scale-50 bg-white rounded-full flex items-center justify-center text-gray-500 !opacity-100 hover:bg-gray-200 hover:text-gray-900 cursor-pointer;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    @apply !scale-50 bg-white rounded-full;
+}
+
+/* start overrides for text editor content */
+.rich-content h1 {
+    @apply text-4xl font-bold my-6;
+}
+
+.rich-content h2 {
+    @apply text-3xl font-semibold my-5;
+}
+
+.rich-content h3 {
+    @apply text-2xl font-semibold my-4;
+}
+
+.rich-content h4 {
+    @apply text-xl font-medium my-3;
+}
+
+.rich-content h5 {
+    @apply text-lg font-medium my-2;
+}
+
+.rich-content h6 {
+    @apply text-base font-medium my-2;
+}
+
+.rich-content p {
+    @apply my-4 text-black;
+}
+
+.rich-content a {
+    @apply text-blue-600 underline hover:text-blue-800;
+}
+
+.rich-content ul {
+    @apply list-disc pl-6 my-4;
+}
+
+.rich-content ol {
+    @apply list-decimal pl-6 my-4;
+}
+
+.rich-content li {
+    @apply mb-2;
+}
+
+.rich-content blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 my-4;
+}
+
+.rich-content img {
+    @apply max-w-full h-auto my-4 rounded;
+}
+
+.rich-content strong {
+    @apply font-semibold;
+}
+
+.rich-content em {
+    @apply italic;
+}
+
+.rich-content code {
+    @apply bg-gray-100 text-sm px-1 py-0.5 rounded font-mono;
+}
+
+.rich-content pre {
+    @apply bg-black text-white p-4 overflow-x-auto rounded my-4 text-sm font-mono;
+}
+
+.rich-content table {
+    @apply w-full table-auto border-collapse my-6;
+}
+
+.rich-content th,
+.rich-content td {
+    @apply border px-4 py-2;
+}
+
+.rich-content th {
+    @apply bg-gray-100 font-semibold;
+}
+
+.rich-content hr {
+    @apply my-6 border-t border-gray-300;
+}
+/* end overrides for text editor content */
+
+
+.hero-section .swiper-pagination-bullet {
+  background-color: white;
+  opacity: 1;
+}
+
+.hero-section .swiper-pagination-bullet-active {
+  background-color: black;
+}
