@@ -71,7 +71,7 @@ class SubscriberController extends Controller
       // Email info
       $info = [
         'phone' => get_setting('contact_phone') ?? '+966 112 860 262',
-        'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+        'email' => get_setting('contact_email') ?? 'info@velouracare.com',
         'address' => get_setting('contact_address') ?? 'Kingdom of Saudi Arabia – Riyadh – Al-Malaz – Salah Al-Din Al-Ayyubi Road ',
         'facebook' => get_setting('facebook_link') ?? '#',
         'twitter' => get_setting('twitter_link') ?? '#',
@@ -82,7 +82,7 @@ class SubscriberController extends Controller
 
       Mail::send('emails.subscribing', ['info' => $info, 'subscriber' => $subscriber], function ($message) use ($subscriber) {
         $message->to($subscriber->email)
-          ->subject('Subscription Confirmation' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+          ->subject('Subscription Confirmation' . ' - ' . get_setting('site_name', 'Veloura Care'));
         $message->from(config('mail.from.address'), config('mail.from.name'));
       });
 
@@ -90,8 +90,8 @@ class SubscriberController extends Controller
       $title = $isEn ? 'Subscription Confirmed' : 'تم تأكيد الاشتراك';
 
       $messageText = $isEn ?
-        'Thank you for subscribing to the Sky Business newsletter. You’ll now receive updates on our latest beauty offers.'
-        : "نشكرك على اشتراكك في نشرة سكاي بيزنس الإخبارية. ستتلقى الآن تحديثات حول أحدث منتجات التجميل والصحة، وعروضًا حصرية.";
+        'Thank you for subscribing to the Veloura Care newsletter. You’ll now receive updates on our latest beauty offers.'
+        : "نشكرك على اشتراكك في نشرة فيلاورا كير الإخبارية. ستتلقى الآن تحديثات حول أحدث منتجات التجميل والصحة، وعروضًا حصرية.";
     } else {
       // Texts for EXISTING subscriber
       $title = $isEn
@@ -99,8 +99,8 @@ class SubscriberController extends Controller
         : 'عذراً، أنت مشترك بالفعل!';
 
       $messageText = $isEn
-        ? 'It looks like you\'re already part of the Sky Business family! Thank you for your continued support and loyalty.'
-        : 'يبدو أنك بالفعل عضوًا في عائلة سكاي بيزنس! شكرًا لدعمك المستمر وولائك.';
+        ? 'It looks like you\'re already part of the Veloura Care family! Thank you for your continued support and loyalty.'
+        : 'يبدو أنك بالفعل عضوًا في عائلة فيلاورا كير! شكرًا لدعمك المستمر وولائك.';
     }
 
     return back()
@@ -220,8 +220,8 @@ class SubscriberController extends Controller
       $subscriber->delete();
       $title = $isEn ? 'Unsubscription Complete!' : 'تم إلغاء الاشتراك!';
       $message = $isEn ?
-        'You have been unsubscribed from Sky Business\'s newsletter. We appreciate your support and interest.'
-        : 'تم إلغاء اشتراكك في نشرة سكاي بيزنس الإخبارية. نشكر دعمك واهتمامك.';
+        'You have been unsubscribed from Veloura Care\'s newsletter. We appreciate your support and interest.'
+        : 'تم إلغاء اشتراكك في نشرة فيلاورا كير الإخبارية. نشكر دعمك واهتمامك.';
 
       return redirect()->route('react.home')->with('message', $message)->with('title', $title);
     } else {

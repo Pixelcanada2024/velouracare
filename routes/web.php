@@ -764,7 +764,7 @@ Route::controller(ContactController::class)->group(function () {
 // Info For Emails
 $info = [
   'phone' => get_setting('contact_phone') ?? '+966 112 860 262',
-  'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+  'email' => get_setting('contact_email') ?? 'info@velouracare.com',
   'address' => get_setting('contact_address') ?? 'Kingdom of Saudi Arabia – Riyadh – Al-Malaz – Salah Al-Din Al-Ayyubi Road ',
   'facebook' => get_setting('facebook_link') ?? '#',
   'twitter' => get_setting('twitter_link') ?? '#',
@@ -779,17 +779,17 @@ $info = [
 
 //   $user->load('businessInfo');
 
-//   $registrationNotificationEmail = get_setting('registration_notification_email') ?? 'info@skybusinesstrade.com';
+//   $registrationNotificationEmail = get_setting('registration_notification_email') ?? 'info@velouracare.com';
 
 //   Mail::send('emails.admin_new_registration', ['user' => $user], function ($message) use ($registrationNotificationEmail) {
 //     $message->to($registrationNotificationEmail)
-//       ->subject('New Registration Request' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+//       ->subject('New Registration Request' . ' - ' . get_setting('site_name', 'Veloura Care'));
 //     $message->from(config('mail.from.address'), config('mail.from.name'));
 //   });
 
 //   Mail::send('emails.registration', ['user' => $user, 'info' => $info], function ($message) use ($user) {
 //     $message->to($user->email)
-//       ->subject('Successful Registration Request Received' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+//       ->subject('Successful Registration Request Received' . ' - ' . get_setting('site_name', 'Veloura Care'));
 //     $message->from(config('mail.from.address'), config('mail.from.name'));
 //   });
 
@@ -846,7 +846,7 @@ Route::get('/test-order-emails', function () use ($info) {
 
   $info = [
     'phone' => get_setting('contact_phone') ?? '+1-905-302-2795',
-    'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+    'email' => get_setting('contact_email') ?? 'info@velouracare.com',
     'address' => get_setting('contact_address') ?? ' Kingdom of Saudi Arabia - Riyadh - Al-Malaz - Salah Al-Din Al-Ayyubi Road ',
     'url' => url('/'),
   ];
@@ -879,7 +879,7 @@ Route::get('/test-notify-back-in-stock', function () use ($info) {
   // return view('emails.notify_back_in_stock', ['info' => $info, 'product' => $productResource, 'customer_name' => $customer_name]);
   Mail::send('emails.notify_back_in_stock', ['info' => $info, 'product' => $productResource, 'customer_name' => $customer_name], function ($message) use ($productResource, $admin) {
       $message->to($admin->email, $admin->name)
-              ->subject("{$productResource['name']} - Back To Stock" . get_setting('site_name', 'Sky Business Trade'))
+              ->subject("{$productResource['name']} - Back To Stock" . get_setting('site_name', 'Veloura Care'))
               ->from(config('mail.from.address'), config('mail.from.name'));
   });
   return 'Email Sent';

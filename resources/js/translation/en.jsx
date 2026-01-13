@@ -80,7 +80,7 @@ export default {
   "call": "Call",
   "your_mail_address": "Your mail address",
 
-  "footer_company_info": "SKY BUSINESS is a trusted B2B wholesaler specializing in premium health and beauty products.",
+  "footer_company_info": "Veloura Care is a trusted B2B wholesaler specializing in premium health and beauty products.",
   "faqs": "FAQs",
   "follow_us_on_social_media": "Follow us on social media:",
   "follow_us": "Follow us:",
@@ -176,7 +176,7 @@ export default {
   "find_us_webinar": "Online event (webinar)",
   "find_us_trade": "Offline events (trade shows, exhibitions, expos, etc.)",
   "find_us_others": "Others",
-  "by_registering_1": "By registering for a wholesale account on Sky Business, you acknowledge that you are representing a legitimate business or are a certified/qualified professional in the beauty industry.",
+  "by_registering_1": "By registering for a wholesale account on Veloura Care, you acknowledge that you are representing a legitimate business or are a certified/qualified professional in the beauty industry.",
   "by_registering_2": "After account registration is completed, we may reach out to you via email if we require further information from you.",
   "by_registering_3": "Please provide accurate information (e.g. your name on the application is the same as the name on your supporting documents), as any inaccuracies or insufficient documentation will result in your application being denied.",
 
@@ -635,7 +635,7 @@ export default {
   // end brands
 
   // start Promotions
-  "promotions_line_1": "Find competitive deals from Sky Business on this page here!",
+  "promotions_line_1": "Find competitive deals from Veloura Care on this page here!",
   "promotions_line_2": "You can view more information about each promotion and the price list of applicable items in the details by",
   "promotions_line_3": "clicking into the promotion banner",
   "no_promotions_found": "No Promotions found",
@@ -806,7 +806,7 @@ export default {
   // Orders Quotation Request modal
   "quotation_request_submitted":"Quotation Request Submitted!",
   "quotation_request_submitted_line_1":"Your request ",
-  "quotation_request_submitted_line_2":" is in progress. Expect your personalized quote via email within 1-2 working days. Thank you for choosing Sky Business!",
+  "quotation_request_submitted_line_2":" is in progress. Expect your personalized quote via email within 1-2 working days. Thank you for choosing Veloura Care!",
   "unsubscribe":"Unsubscribe",
   "same_as_delivery_address":"Same As Delivery Address",
   "this_field_is_required":"This field is required",

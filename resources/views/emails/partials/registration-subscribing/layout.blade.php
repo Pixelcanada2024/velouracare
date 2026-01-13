@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sky Business Trade</title>
+  <title>Veloura Care</title>
   @include('emails.partials.registration-subscribing.style')
 
   @if (App::getLocale() === 'ar')

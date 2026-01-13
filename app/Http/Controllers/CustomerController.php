@@ -272,7 +272,7 @@ class CustomerController extends Controller
         // Emails
         $info = [
           'phone' => get_setting('contact_phone') ?? '+966 112 860 262',
-          'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+          'email' => get_setting('contact_email') ?? 'info@velouracare.com',
           'address' => get_setting('contact_address') ?? 'Kingdom of Saudi Arabia – Riyadh – Al-Malaz – Salah Al-Din Al-Ayyubi Road ',
           'facebook' => get_setting('facebook_link') ?? '#',
           'twitter' => get_setting('twitter_link') ?? '#',
@@ -285,13 +285,13 @@ class CustomerController extends Controller
           {
             Mail::send('emails.approved', ['user' => $user, 'info' => $info], function ($message) use ($user) {
               $message->to($user->email)
-                ->subject('Account Approval' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+                ->subject('Account Approval' . ' - ' . get_setting('site_name', 'Veloura Care'));
               $message->from(config('mail.from.address'), config('mail.from.name'));
             });
           }else if($user->status == 2){
             Mail::send('emails.rejected', ['user' => $user, 'info' => $info], function ($message) use ($user) {
               $message->to($user->email)
-                ->subject('Account Rejected' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+                ->subject('Account Rejected' . ' - ' . get_setting('site_name', 'Veloura Care'));
               $message->from(config('mail.from.address'), config('mail.from.name'));
             });
           }

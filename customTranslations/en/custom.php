@@ -1,11 +1,11 @@
 <?php
 return [
   'who_we_are_title' => 'We Are Distributors',
-  'who_we_are_description' => 'At SKY BUSINESS, we are dedicated to empowering health and beauty businesses by providing them with premium wholesale solutions that drive growth and expand their market presence. With a focus on toiletries, skincare, hair care, healthcare, and makeup, we proudly serve businesses across all regions with reliability, efficiency, and excellence.',
+  'who_we_are_description' => 'At Veloura Care, we are dedicated to empowering health and beauty businesses by providing them with premium wholesale solutions that drive growth and expand their market presence. With a focus on toiletries, skincare, hair care, healthcare, and makeup, we proudly serve businesses across all regions with reliability, efficiency, and excellence.',
   'we_help_partners_title' => 'We Help Partners',
   'we_help_partners_description' => 'Our success is built on a deep understanding of industry trends, customer needs, and the unique demands of the fast-moving consumer goods sector. By leveraging our extensive market expertise and strong network, we help our partners thrive in a competitive landscape.',
   'we_deliver_value_title' => 'We Deliver Value',
-  'we_deliver_value_description' => 'Through strategic partnerships, innovative approaches, and a commitment to quality, SKY BUSINESS ensures the highest levels of satisfaction for our clients.',
+  'we_deliver_value_description' => 'Through strategic partnerships, innovative approaches, and a commitment to quality, Veloura Care ensures the highest levels of satisfaction for our clients.',
   'premium_product_title' => 'Premium Product Selection',
   'premium_product_description' => 'We offer a curated range of top-quality brands and products to meet your business needs.',
   'competitive_pricing_title' => 'Competitive Pricing',
@@ -19,12 +19,12 @@ return [
 
   //Start About Us Page
   // Hero Section
-  "about_us_hero_title" => "Welcome to sky business trade, where health & beauty meets excellence!",
+  "about_us_hero_title" => "Welcome to Veloura Care, where health & beauty meets excellence!",
 
   'about_us_we_are_distributors_title' => 'We are distributors',
 
   // We Are Distributors Section
-  'about_us_we_are_distributors_description' => 'At SKY BUSINESS, we are dedicated to empowering health and beauty businesses by providing them with premium wholesale solutions that drive growth and expand their market presence. With a focus on toiletries, skincare, hair care, healthcare, and makeup, we proudly serve businesses across all regions with reliability, efficiency, and excellence.',
+  'about_us_we_are_distributors_description' => 'At Veloura Care, we are dedicated to empowering health and beauty businesses by providing them with premium wholesale solutions that drive growth and expand their market presence. With a focus on toiletries, skincare, hair care, healthcare, and makeup, we proudly serve businesses across all regions with reliability, efficiency, and excellence.',
 
   // Stats
   'about_us_stats_years_experience' => 20,
@@ -48,7 +48,7 @@ return [
 
   // Contact Section
   'about_us_contact_title' => 'Contact Us',
-  'about_us_contact_description_1' => 'We invite you to explore our product offerings and experience the SKY BUSINESS TRADE difference. If you have any questions or need assistance, please don\'t hesitate to contact us. Our team is here to support you every step of the way.',
+  'about_us_contact_description_1' => 'We invite you to explore our product offerings and experience the Veloura Care difference. If you have any questions or need assistance, please don\'t hesitate to contact us. Our team is here to support you every step of the way.',
   'about_us_contact_description_2' => 'Thank you for choosing us. We look forward to partnering with you and contributing to your success in the beauty and health sector.',
 
   // Why We Are The Best Section
@@ -56,16 +56,16 @@ return [
 
   // Grid Items
   'about_us_competitive_price_title' => 'Competitive Price',
-  'about_us_competitive_price_description' => 'Sky Business offers unbeatable wholesale pricing, empowering your health and beauty business to grow while maximizing profits',
+  'about_us_competitive_price_description' => 'Veloura Care offers unbeatable wholesale pricing, empowering your health and beauty business to grow while maximizing profits',
 
   'about_us_bulk_ordering_title' => 'Bulk Ordering',
   'about_us_bulk_ordering_description' => 'Streamline your inventory management with Our bulk purchasing options, ensuring you always have products ready for your customers.',
 
   'about_us_efficient_logistics_title' => 'Efficient Logistics',
-  'about_us_efficient_logistics_description' => 'Count on Sky Business for fast and reliable delivery solutions, designed to keep your business operations smooth and efficient.',
+  'about_us_efficient_logistics_description' => 'Count on Veloura Care for fast and reliable delivery solutions, designed to keep your business operations smooth and efficient.',
 
   'about_us_exclusive_offers_title' => 'Exclusive Offers',
-  'about_us_exclusive_offers_description' => 'Access tailored promotions and exclusive deals with Sky Business—your trusted partner in the health and beauty industry.',
+  'about_us_exclusive_offers_description' => 'Access tailored promotions and exclusive deals with Veloura Care—your trusted partner in the health and beauty industry.',
 
 
   //End About Us Page
@@ -83,23 +83,23 @@ return [
 
   "footer_stay_connected_with_us_on_social_media" => "Stay connected with us on social media:",
   "best_regards" => "Best regards,",
-  "the_sky_business_team" => "The Sky Business Team",
+  "the_sky_business_team" => "The Veloura Care Team",
 
   //End Shared
 
   // Start email-subscribing
 
-  'email_subscribing_welcome_message' => "Welcome to the Sky Business Family! Your Journey to Beauty Begins Here!",
-  "email_subscribing_dear_customer_message" => "Welcome to Sky Business, your trusted partner in the world of premium skincare, healthcare, haircare, and makeup products! We're thrilled to have you join our community of beauty professionals and enthusiasts.",
+  'email_subscribing_welcome_message' => "Welcome to the Veloura Care Family! Your Journey to Beauty Begins Here!",
+  "email_subscribing_dear_customer_message" => "Welcome to Veloura Care, your trusted partner in the world of premium skincare, healthcare, haircare, and makeup products! We're thrilled to have you join our community of beauty professionals and enthusiasts.",
   "email_subscribing_by_subscribing" => "By subscribing to our website, you've unlocked exclusive access to:",
   "email_subscribing_by_subscribing_feature_one" => "Latest Product Launches: Be the first to know about the newest and most innovative products hitting the market.",
   "email_subscribing_by_subscribing_feature_two" => "Wholesale Deals & Promotions: Get insider access to special pricing and limited-time offers designed to boost your business.",
   "email_subscribing_by_subscribing_feature_three" => "Industry Insights: Stay ahead of the curve with trends, tips, and expert advice from the beauty industry.",
-  "email_subscribing_our_commit" => "We are dedicated to providing you with high-quality products and exceptional service to help your business thrive. Explore our extensive catalog at <a href=\":link\" target=\"_blank\" style=\"color: #0073e6!important; text-decoration: underline;\">skybusinesstrade.com</a> and discover the perfect additions to your inventory.",
+  "email_subscribing_our_commit" => "We are dedicated to providing you with high-quality products and exceptional service to help your business thrive. Explore our extensive catalog at <a href=\":link\" target=\"_blank\" style=\"color: #0073e6!important; text-decoration: underline;\">velouracare.com</a> and discover the perfect additions to your inventory.",
   "email_subscribing_order_now" => "Order Now",
   "email_subscribing_order_now_mobile"=>"Order Now",
-  "email_subscribing_any_ask" => "If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a style='color:#006DFF' href=\"mailto:Info@skybusinesstrade.com\">Info@skybusinesstrade.com</a>.",
-  "email_subscribing_footer_message" => "Thank you for choosing Sky Business. We look forward to a successful partnership!",
+  "email_subscribing_any_ask" => "If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_subscribing_footer_message" => "Thank you for choosing Veloura Care. We look forward to a successful partnership!",
   "email_subscribing_unsubscribe_message" => "If you wish to unsubscribe from our newsletter, please click the following link:",
   "email_subscribing_unsubscribe_button" => "Unsubscribe",
 
@@ -107,17 +107,17 @@ return [
 
 
   // Start email-registration
-  "email_registration_join_request" => "Your Sky Business Wholesale Application: Next Steps!",
-  "email_registration_line_1" => "Thank you for your interest in partnering with Sky Business! We've received your wholesale application and are excited about the possibility of working with you.",
+  "email_registration_join_request" => "Your Veloura Care Wholesale Application: Next Steps!",
+  "email_registration_line_1" => "Thank you for your interest in partnering with Veloura Care! We've received your wholesale application and are excited about the possibility of working with you.",
   "email_registration_line_2" => "Our team is now reviewing your application to ensure all details are in order. This process typically takes 3 - 5 business days. We appreciate your patience during this time.",
   "email_registration_line_3" => "We will notify you via email as soon as your application has been processed. If we require any additional information, we will reach out to you directly.",
-  "email_registration_line_4" => "Should you have any questions about your application status or our wholesale program, please don't hesitate to contact us at <a style='color:#006DFF'  href=\"mailto:Info@skybusinesstrade.com\">Info@skybusinesstrade.com</a>.",
-  "email_registration_footer_message" => "Thank you for choosing Sky Business . We look forward to building a successful partnership!",
+  "email_registration_line_4" => "Should you have any questions about your application status or our wholesale program, please don't hesitate to contact us at <a style='color:#006DFF'  href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_registration_footer_message" => "Thank you for choosing Veloura Care . We look forward to building a successful partnership!",
   // End email-registration
 
   // Start email-approved
-  "email_approved_title" => "Congratulations! Your Sky Business Wholesale Account is Approved!",
-  "email_approved_line_1" => "Great news! We're thrilled to inform you that your wholesale application with Sky Business has been approved. Welcome to our growing family of valued partners!",
+  "email_approved_title" => "Congratulations! Your Veloura Care Wholesale Account is Approved!",
+  "email_approved_line_1" => "Great news! We're thrilled to inform you that your wholesale application with Veloura Care has been approved. Welcome to our growing family of valued partners!",
   "email_approved_line_2" => "Your wholesale account is now active, and you can immediately access our exclusive wholesale pricing and benefits. We're excited to support your business with our premium selection of skincare, healthcare, haircare, and makeup products.",
   "email_approved_how_to_get_started" => "Here's how to get started:",
   "email_approved_how_to_get_started_line_1" => "Sign in to your wholesale account.",
@@ -125,25 +125,25 @@ return [
   "email_approved_how_to_get_started_line_3" => "Add products to your shopping cart.",
   "email_approved_how_to_get_started_line_4" => "Place your first order: Enjoy competitive pricing and a seamless ordering experience.",
   "email_approved_login" => "Sign in to Your Account",
-  "email_approved_commit" => "We are committed to providing you with exceptional products and service. If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a href=\"mailto:Info@skybusinesstrade.com\">Info@skybusinesstrade.com</a>.",
+  "email_approved_commit" => "We are committed to providing you with exceptional products and service. If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
   "email_approved_footer" => "We look forward to a successful and prosperous partnership!",
   // End email-approved
 
   // Start email-rejected
-  "email_rejected_title" => "Update Regarding Your Sky Business Wholesale Application",
-  "email_rejected_line_1" => "Thank you for your interest in partnering with Sky Business and for submitting your wholesale application. We appreciate you taking the time to apply.",
+  "email_rejected_title" => "Update Regarding Your Veloura Care Wholesale Application",
+  "email_rejected_line_1" => "Thank you for your interest in partnering with Veloura Care and for submitting your wholesale application. We appreciate you taking the time to apply.",
   "email_rejected_line_2" => "After careful review, we regret to inform you that we are unable to approve your wholesale application at this time. This decision may be due to various factors, including but not limited to [specific reason, e.g., not meeting our minimum purchase requirements, incomplete information, or current market saturation in your area].",
-  "email_rejected_line_3" => "We understand this news may be disappointing. While your wholesale application was not approved, we still value your interest in Sky Business .",
-  "email_rejected_line_4" => "If you believe there has been a misunderstanding or if you would like to discuss your application further, please feel free to contact us at <a style='color:#006DFF' href=\"mailto:Info@skybusinesstrade.com\">Info@skybusinesstrade.com</a>.",
+  "email_rejected_line_3" => "We understand this news may be disappointing. While your wholesale application was not approved, we still value your interest in Veloura Care .",
+  "email_rejected_line_4" => "If you believe there has been a misunderstanding or if you would like to discuss your application further, please feel free to contact us at <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
   "email_rejected_line_5" => "We are happy to provide more detailed feedback and discuss potential future opportunities.",
-  "email_rejected_footer" => "Thank you again for your interest in Sky Business.",
+  "email_rejected_footer" => "Thank you again for your interest in Veloura Care.",
 
   // End email-rejected
 
   // Start new quotation request
   "new_quotation_request_new_quotation_request_received" => "New Quotation Request Received - [ID: :id] from [:name]",
-  "new_quotation_request_dear_sky_business_team" => "Dear Sky Business Team,",
-  "new_quotation_request_automated_notification" => "This is an automated notification to inform you that a new quotation request has been submitted by a client on the Sky Business Trade website.",
+  "new_quotation_request_dear_sky_business_team" => "Dear Veloura Care Team,",
+  "new_quotation_request_automated_notification" => "This is an automated notification to inform you that a new quotation request has been submitted by a client on the Veloura Care website.",
   "new_quotation_request_request_details" => "Request Details:",
   "new_quotation_request_request_id"=>"Request ID:",
   "new_quotation_request_request_client_name"=>"Client Name:",
@@ -159,24 +159,24 @@ return [
   "new_quotation_request_next_steps_3"=>"Communicate the quotation to the client using the provided contact details.",
   "new_quotation_request_please_ensure"=>"Please ensure this request is processed promptly to maintain our high service standards.",
   "new_quotation_request_thank_you"=>"Thank you,",
-  "new_quotation_request_automated_system"=>"Sky Business Trade Automated System.",
+  "new_quotation_request_automated_system"=>"Veloura Care Automated System.",
 
   // End new quotation request
 
   // Start new quotation response
 
-  "new_quotation_response_new_quotation_response_received" => "Thank You for Your Sky Business Quotation Request - [ID: :id]",
+  "new_quotation_response_new_quotation_response_received" => "Thank You for Your Veloura Care Quotation Request - [ID: :id]",
   "new_quotation_response_dear_customer" => "Dear :customer_name,",
-  "new_quotation_response_dear_customer_thank_you" => "Thank you for submitting your quotation request to Sky Business Trade! We have successfully received your Excel file containing the products you wish to purchase.",
+  "new_quotation_response_dear_customer_thank_you" => "Thank you for submitting your quotation request to Veloura Care! We have successfully received your Excel file containing the products you wish to purchase.",
   "new_quotation_response_your_order_number" => "Your Request ID is: [ID: :id]",
   "new_quotation_response_our_team_1" => "Our team is now reviewing your submission and will prepare a detailed quotation for you. We aim to process all requests promptly and will get back to you as soon as possible, typically within 1-2 business days.",
-  "new_quotation_response_our_team_2" =>"We appreciate your interest in Sky Business Trade and look forward to providing you with competitive pricing for our premium skincare, healthcare, haircare, and makeup products.",
+  "new_quotation_response_our_team_2" =>"We appreciate your interest in Veloura Care and look forward to providing you with competitive pricing for our premium skincare, healthcare, haircare, and makeup products.",
   "new_quotation_response_our_question"=>"If you have any questions or need to provide additional information regarding your request, please reply to this email or contact us via What’s up:",
   "new_quotation_response_our_note"=>"Note:",
   "new_quotation_response_our_note_desc"=>"Please reference your Request ID when communicating with us.",
-  "new_quotation_response_thank_you" => "Thank you for choosing Sky Business Trade. We look forward to a successful partnership!",
+  "new_quotation_response_thank_you" => "Thank you for choosing Veloura Care. We look forward to a successful partnership!",
   "new_quotation_response_best" => "Best regards,",
-  "new_quotation_response_team" => "The Sky Business Trade Team.",
+  "new_quotation_response_team" => "The Veloura Care Team.",
 
 
   // End new quotation response
@@ -185,13 +185,13 @@ return [
 
   'notify_back_in_stock_product_name_back_in_stock_your_wait_is_over'=>"[:product_name] Back in Stock - Your Wait is Over!",
   'notify_back_in_stock_dear'=>"Dear :user_name",
-  'notify_back_in_stock_product_first_section'=>"We are excited to share some great news with you on behalf of Sky Business Company! The product you've been eagerly waiting for, [:product_name], is now back in stock and ready for purchase.",
+  'notify_back_in_stock_product_first_section'=>"We are excited to share some great news with you on behalf of Veloura Care Company! The product you've been eagerly waiting for, [:product_name], is now back in stock and ready for purchase.",
   'notify_back_in_stock_product_second_section'=>"Your interest in [:product_name] did not go unnoticed, and we are pleased to let you know that you can now add this sought-after item to your collection. Take advantage of this opportunity and secure your order before it's gone again.",
-  "notify_back_in_stock_product_third_section"=>"Click the link below to head over to Sky Business Company's website and grab your [:product_name] today:",
+  "notify_back_in_stock_product_third_section"=>"Click the link below to head over to Veloura Care Company's website and grab your [:product_name] today:",
   "notify_back_in_stock_product_button"=>"Shop Product Now",
-  "notify_back_in_stock_thanks"=>"Thank you for your patience and loyalty as a valued customer of Sky Business Trade Company. We hope this product brings joy and satisfaction to your business needs.",
-  "notify_back_in_stock_contact_for_help" => "For any inquiries or assistance, please feel free to reach out to our dedicated customer support team at <a style='color:#006DFF' href=\"mailto:Info@skybusinesstrade.com\">Info@skybusinesstrade.com</a>. Please reference your Request ID when communicating with us.",
-  'notify_back_in_stock_footer_message'=>"Thank you for choosing Sky Business, your loyal partner in beauty & wellness.",
+  "notify_back_in_stock_thanks"=>"Thank you for your patience and loyalty as a valued customer of Veloura Care Company. We hope this product brings joy and satisfaction to your business needs.",
+  "notify_back_in_stock_contact_for_help" => "For any inquiries or assistance, please feel free to reach out to our dedicated customer support team at <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>. Please reference your Request ID when communicating with us.",
+  'notify_back_in_stock_footer_message'=>"Thank you for choosing Veloura Care, your loyal partner in beauty & wellness.",
   //End notify back in stock
 
   //End Emails

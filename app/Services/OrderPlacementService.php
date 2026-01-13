@@ -194,7 +194,7 @@ class OrderPlacementService {
 
         $info = [
           'phone' => get_setting('contact_phone') ?? '+1-905-302-2795',
-          'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+          'email' => get_setting('contact_email') ?? 'info@velouracare.com',
           'address' => get_setting('contact_address') ?? ' Kingdom of Saudi Arabia - Riyadh - Al-Malaz - Salah Al-Din Al-Ayyubi Road ',
           'url' => url('/'),
         ];

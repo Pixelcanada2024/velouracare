@@ -162,7 +162,7 @@
                             <img src="/public/website-assets/home/PartnerWithSkyBusiness{{$settingNameExtra}}.png" class="w-100">
                         @endif
                     </div>
-                    <strong class="text-muted">{{ translate('Partner with Sky Business (Desktop)') }}</strong>
+                    <strong class="text-muted">{{ translate('Partner with Veloura Care (Desktop)') }}</strong>
                 </div>
             </div>
         </div>
@@ -241,7 +241,7 @@
                                 style="height: 100%; object-fit: cover;">
                         @endif
                     </div>
-                    <small class="text-muted">{{ translate('Partner with Sky Business (Mobile)') }}</small>
+                    <small class="text-muted">{{ translate('Partner with Veloura Care (Mobile)') }}</small>
                 </div>
             </div>
         </div>

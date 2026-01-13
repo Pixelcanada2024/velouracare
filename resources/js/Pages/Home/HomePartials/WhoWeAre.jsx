@@ -22,7 +22,7 @@ export default function WhoWeAre({ whoWeAreImages, textContent }) {
               <h2 className="text-2xl sm:text-4xl font-bold ">{textContent?.who_we_are_title || 'We Are Distributors'}</h2>
             </div>
             <p className='text-[#222222]'>
-              {textContent?.who_we_are_description || 'At SKY BUSINESS, we are dedicated to empowering health and beauty businesses by providing them with premium wholesale solutions that drive growth and expand their market presence. With a focus on toiletries, skincare, hair care, healthcare, and makeup, we proudly serve businesses across all regions with reliability, efficiency, and excellence.'}
+              {textContent?.who_we_are_description || 'At Veloura Care, we are dedicated to empowering health and beauty businesses by providing them with premium wholesale solutions that drive growth and expand their market presence. With a focus on toiletries, skincare, hair care, healthcare, and makeup, we proudly serve businesses across all regions with reliability, efficiency, and excellence.'}
             </p>
 
             {/* Stats grid - Hardcoded */}
@@ -72,7 +72,7 @@ export default function WhoWeAre({ whoWeAreImages, textContent }) {
             <div className='p-4 sm:p-8 space-y-4 sm:w-1/2 xl:w-full flex flex-col justify-center'>
               <h3 className="text-2xl font-bold mb-4">{textContent?.we_deliver_value_title || 'We Deliver Value'}</h3>
               <p className='text-[#222222]'>
-                {textContent?.we_deliver_value_description || 'Through strategic partnerships, innovative approaches, and a commitment to quality, SKY BUSINESS ensures the highest levels of satisfaction for our clients.'}
+                {textContent?.we_deliver_value_description || 'Through strategic partnerships, innovative approaches, and a commitment to quality, Veloura Care ensures the highest levels of satisfaction for our clients.'}
               </p>
             </div>
           </div>

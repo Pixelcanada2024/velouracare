@@ -32,7 +32,7 @@ export default function Footer({ ShowFooterSwiper }) {
         {/* Copyright Bar */}
         <div className="bg-[#004AAD] -mb-2">
           <div className="container max-lg:flex-col gap-3 flex justify-between items-center py-4 mx-auto [&_*]:text-white  [&_*]:max-lg:!text-xs [&_*]:lg:!text-sm text-center  ">
-            <div className="">©  Sky Business Trade {new Date().getFullYear()} | {tr['all_rights_reserved']}</div>
+            <div className="">©  Veloura Care {new Date().getFullYear()} | {tr['all_rights_reserved']}</div>
             <div>
               <ul className="flex gap-8 items-center">
                 <li>

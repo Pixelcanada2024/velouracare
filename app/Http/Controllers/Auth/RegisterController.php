@@ -292,11 +292,11 @@ class RegisterController extends Controller
   {
       $user->load('businessInfo');
 
-      $registrationNotificationEmail = get_setting('registration_notification_email') ?? 'info@skybusinesstrade.com' ;
+      $registrationNotificationEmail = get_setting('registration_notification_email') ?? 'info@velouracare.com' ;
 
       $info = [
         'phone' => get_setting('contact_phone') ?? '+966 112 860 262',
-        'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+        'email' => get_setting('contact_email') ?? 'info@velouracare.com',
         'address' => get_setting('contact_address') ?? 'Kingdom of Saudi Arabia - Riyadh - Al-Malaz - Salah Al-Din Al-Ayyubi Road ',
         'facebook' => get_setting('facebook_link') ?? '#',
         'twitter' => get_setting('twitter_link') ?? '#',

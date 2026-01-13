@@ -102,7 +102,7 @@ export default function Home({
           textContent={text_content}
         />
 
-        {/* Partner with Sky Business */}
+        {/* Partner with Veloura Care */}
         <section className='container'>
           <Link href={route('react.contact-us')}>
             <PartnerImages bigImg={partner_sky_business_desktop} smallImg={partner_sky_business_mobile} />

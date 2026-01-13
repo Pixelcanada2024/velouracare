@@ -8,7 +8,7 @@ export default function FooterLogo() {
 
   return (
     <div className="relative">
-      <img src={logo || footer_logo} alt="Sky Business" className="w-full" />
+      <img src={logo || footer_logo} alt="Veloura Care" className="w-full" />
     </div>
   )
 }

@@ -16,7 +16,7 @@ export default function PrintHeader({ info }) {
 
         <div className='flex items-center justify-between'>
           <a href={info.url} className="w-[169px] sm:w-[216px]">
-            <img src={logo || header_logo} className='w-full h-full' alt="Sky Business" />
+            <img src={logo || header_logo} className='w-full h-full' alt="Veloura Care" />
           </a>
 
           <div className="text-[22px] sm:text-[30px] font-bold uppercase">

@@ -28,14 +28,14 @@ class SendRegisterEmailsJob implements ShouldQueue
   {
     Mail::send('emails.registration', ['user' => $this->user, 'info' => $this->info], function ($message)  {
       $message->to($this->user->email)
-        ->subject('Successful Registration Request Received' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+        ->subject('Successful Registration Request Received' . ' - ' . get_setting('site_name', 'Veloura Care'));
       $message->from(config('mail.from.address'), config('mail.from.name'));
     });
 
 
     Mail::send('emails.admin_new_registration', ['user' => $this->user], function ($message) {
       $message->to($this->registrationNotificationEmail)
-        ->subject('New Registration Request' . ' - ' . get_setting('site_name', 'Sky Business Trade'));
+        ->subject('New Registration Request' . ' - ' . get_setting('site_name', 'Veloura Care'));
       $message->from(config('mail.from.address'), config('mail.from.name'));
     });
   }

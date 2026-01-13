@@ -63,7 +63,7 @@
                     <!-- Footer -->
                     <tr>
                         <td align="center" style="background:#f3f4f6; padding:15px; font-size:13px; color:#6b7280;">
-                            © {{ date('Y') }} Sky Business Trade. All rights reserved.
+                            © {{ date('Y') }} Veloura Care. All rights reserved.
                         </td>
                     </tr>
                 </table>

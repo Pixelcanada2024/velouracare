@@ -102,7 +102,7 @@ export default function AboutUs({ images, textContent }) {
         </div>
 
 
-        {/* Partner with Sky Business */}
+        {/* Partner with Veloura Care */}
         <Link href={route("react.contact-us")}>
           <div className='my-16 lg:my-32 container'>
             <PartnerImages bigImg={images?.["partner_with_sky_business_desktop"+nameExtra]} smallImg={images?.["partner_with_sky_business_mobile"+nameExtra]} />

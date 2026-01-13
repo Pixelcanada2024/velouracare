@@ -89,13 +89,13 @@ return [
       'us'
     ],
     'domains' => [
-      'sa' => 'sa.skybusinesstrade.com',
-      'ae' => 'ae.skybusinesstrade.com',
-      'kw' => 'kw.skybusinesstrade.com',
-      'qa' => 'qa.skybusinesstrade.com',
-      'om' => 'om.skybusinesstrade.com',
-      'bh' => 'bh.skybusinesstrade.com',
-      'us' => 'skybusinesstrade.com'
+      'sa' => 'sa.velouracare.com',
+      'ae' => 'ae.velouracare.com',
+      'kw' => 'kw.velouracare.com',
+      'qa' => 'qa.velouracare.com',
+      'om' => 'om.velouracare.com',
+      'bh' => 'bh.velouracare.com',
+      'us' => 'velouracare.com'
     ],
     'currencies' => [
       'sa' => 'SAR',

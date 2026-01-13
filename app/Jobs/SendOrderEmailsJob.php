@@ -39,7 +39,7 @@ class SendOrderEmailsJob implements ShouldQueue
           'order' => $this->order->load('user'),
         ], function ($message) use ($uploadedFile) {
             $message->to($this->admin->email, $this->admin->name)
-                    ->subject('📦 New Quotation Request ' . "- #{$this->order->code} -" . get_setting('site_name', 'Sky Business Trade'))
+                    ->subject('📦 New Quotation Request ' . "- #{$this->order->code} -" . get_setting('site_name', 'Veloura Care'))
                     ->from(config('mail.from.address'), config('mail.from.name'));
             if ($uploadedFile && $uploadedFile->file_path) {
                 $message->attach(  public_path('storage/' . $uploadedFile->file_path));
@@ -51,7 +51,7 @@ class SendOrderEmailsJob implements ShouldQueue
           'order' => $this->order->load('user'),
         ], function ($message) {
             $message->to($this->customerEmail, $this->customerName)
-                    ->subject('📦 SkyBusiness Quotation Request Submitted ' . "- #{$this->order->code} -" . get_setting('site_name', 'Sky Business Trade'))
+                    ->subject('📦 VelouraCare Quotation Request Submitted ' . "- #{$this->order->code} -" . get_setting('site_name', 'Veloura Care'))
                     ->from(config('mail.from.address'), config('mail.from.name'));
         });
 
@@ -63,7 +63,7 @@ class SendOrderEmailsJob implements ShouldQueue
                 $billingEmail = $this->order->additional_info['billing']['email'];
                 $billingName = $this->order->additional_info['billing']['first_name'] . ' ' . $this->order->additional_info['billing']['last_name'];
                 $message->to($billingEmail, $billingName)
-                        ->subject('📦 SkyBusiness Quotation Request Submitted ' . "- #{$this->order->code} -" . get_setting('site_name', 'Sky Business Trade'))
+                        ->subject('📦 VelouraCare Quotation Request Submitted ' . "- #{$this->order->code} -" . get_setting('site_name', 'Veloura Care'))
                         ->from(config('mail.from.address'), config('mail.from.name'));
             });
         }

@@ -416,11 +416,11 @@
                                             </div>
                                         </div>
 
-                                        <!-- Partner with Sky Business Desktop -->
+                                        <!-- Partner with Veloura Care Desktop -->
                                         <div class="col-md-6 mb-4">
                                             <div class="form-group">
                                                 <label
-                                                    class="col-from-label fs-13 fw-500">{{ translate('Partner with Sky Business (Desktop)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
+                                                    class="col-from-label fs-13 fw-500">{{ translate('Partner with Veloura Care (Desktop)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
                                                 <p class="text-muted">{{ translate('Recommended size: 1400x200px') }}</p>
                                                 <div class="input-group" data-toggle="aizuploader" data-type="image">
                                                     <div class="input-group-prepend">
@@ -439,11 +439,11 @@
                                             </div>
                                         </div>
 
-                                        <!-- Partner with SkyBusiness Mobile -->
+                                        <!-- Partner with VelouraCare Mobile -->
                                         <div class="col-md-6 mb-4">
                                             <div class="form-group">
                                                 <label
-                                                    class="col-from-label fs-13 fw-500">{{ translate('Partner with Sky Business (Mobile)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
+                                                    class="col-from-label fs-13 fw-500">{{ translate('Partner with Veloura Care (Mobile)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
                                                 <p class="text-muted">{{ translate('Recommended size: 770x200px') }}</p>
                                                 <div class="input-group" data-toggle="aizuploader" data-type="image">
                                                     <div class="input-group-prepend">
@@ -793,12 +793,12 @@
 
                                 <!-- Partner Images -->
                                 <div class="mb-5">
-                                    <h5 class="mb-3">Partner with Sky Business Images</h5>
+                                    <h5 class="mb-3">Partner with Veloura Care Images</h5>
                                     <div class="row">
                                         <!-- Desktop Partner Image -->
                                         <div class="col-md-6 mb-4">
                                             <div class="form-group">
-                                                <label class="col-from-label fs-13 fw-500">{{ translate('Partner with Sky Business (Desktop)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
+                                                <label class="col-from-label fs-13 fw-500">{{ translate('Partner with Veloura Care (Desktop)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
                                                 <p class="text-muted">{{ translate('Recommended size: 1200*200px') }}</p>
                                                 <div class="input-group" data-toggle="aizuploader" data-type="image">
                                                     <div class="input-group-prepend">
@@ -814,7 +814,7 @@
                                         <!-- Mobile Partner Image -->
                                         <div class="col-md-6 mb-4">
                                             <div class="form-group">
-                                                <label class="col-from-label fs-13 fw-500">{{ translate('Partner with Sky Business (Mobile)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
+                                                <label class="col-from-label fs-13 fw-500">{{ translate('Partner with Veloura Care (Mobile)') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></label><br>
                                                 <p class="text-muted">{{ translate('Recommended size: 400*200px') }}</p>
                                                 <div class="input-group" data-toggle="aizuploader" data-type="image">
                                                     <div class="input-group-prepend">

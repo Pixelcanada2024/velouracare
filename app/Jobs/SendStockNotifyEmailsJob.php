@@ -28,7 +28,7 @@ class SendStockNotifyEmailsJob implements ShouldQueue
   {
     $info = [
       'phone' => get_setting('contact_phone') ?? '+966 112 860 262',
-      'email' => get_setting('contact_email') ?? 'info@skybusinesstrade.com',
+      'email' => get_setting('contact_email') ?? 'info@velouracare.com',
       'address' => get_setting('contact_address') ?? 'Kingdom of Saudi Arabia – Riyadh – Al-Malaz – Salah Al-Din Al-Ayyubi Road',
       'facebook' => get_setting('facebook_link') ?? '#',
       'twitter' => get_setting('twitter_link') ?? '#',
@@ -56,7 +56,7 @@ class SendStockNotifyEmailsJob implements ShouldQueue
             'customer_name' => $customerName,
           ],
           function ($message) use ($productResource, $user) {
-            $siteName = get_setting('site_name', 'Sky Business Trade');
+            $siteName = get_setting('site_name', 'Veloura Care');
             $message->to($user->email, $user->name)
               ->subject("{$productResource['name']} - Back To Stock | {$siteName}")
               ->from(config('mail.from.address'), config('mail.from.name'));

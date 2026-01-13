@@ -66,7 +66,7 @@
 
         <!-- Partner Images Preview -->
         <div class="mb-4">
-            <h6 class="mb-2">{{ translate('Partner with Sky Business Section') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></h6>
+            <h6 class="mb-2">{{ translate('Partner with Veloura Care Section') }}<i class="las la-language text-danger" title="{{translate('Translatable')}}"></i></h6>
             <div class="row">
                 <div>
                     <div class="border rounded overflow-hidden">
