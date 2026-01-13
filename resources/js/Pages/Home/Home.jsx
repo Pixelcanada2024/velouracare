@@ -62,13 +62,15 @@ export default function Home({
           categories={categories}
         />
 
+
+
         {/* Who We Are */}
         <WhoWeAre
+          textContent={text_content}
           whoWeAreImages={{
             one: who_we_are_one,
             two: who_we_are_two
           }}
-          textContent={text_content}
         />
 
         {/* Discover Our Top Picks */}
@@ -110,7 +112,7 @@ export default function Home({
         </section>
 
         {/* Our Latest Posts */}
-        { latest_blogs.length > 0 && <OurLatestPosts blogs={latest_blogs} />}
+        {latest_blogs.length > 0 && <OurLatestPosts blogs={latest_blogs} />}
 
         {/* FAQ Section */}
         <FAQ faqs={faqs} />
