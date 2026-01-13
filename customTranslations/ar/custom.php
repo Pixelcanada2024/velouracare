@@ -90,10 +90,10 @@ return [
   "email_subscribing_by_subscribing_feature_one" => "أحدث المنتجات: ستكونون أول من يعرف عن أحدث المنتجات وأكثرها ابتكارًا في السوق.",
   "email_subscribing_by_subscribing_feature_two" => "عروض وتخفيضات خاصة: استفد من أسعار مميزة وعروض محدودة المدة لتعزيز أعمالكم.",
   "email_subscribing_by_subscribing_feature_three" => "أخبار وحلول مبتكرة: تابعوا أحدث الاتجاهات والنصائح والإرشادات من خبراء صناعة التجميل.",
-  "email_subscribing_our_commit" => "نحن ملتزمون بتقديم منتجات عالية الجودة وخدمة ممتازة لعملائنا، لمساعدتهم على تطوير أعمالهم. تصفحوا كتالوجنا الواسع على الموقع الإلكتروني <a href=\":link\" target=\"_blank\" style=\"color: #0073e6!important; text-decoration: underline;\">velouracare.com</a> واكتشفوا المنتجات التي تناسب احتياجاتكم.",
+  "email_subscribing_our_commit" => "نحن ملتزمون بتقديم منتجات عالية الجودة وخدمة ممتازة لعملائنا، لمساعدتهم على تطوير أعمالهم. تصفحوا كتالوجنا الواسع على الموقع الإلكتروني <a href=\":link\" target=\"_blank\" style=\"color: #0073e6!important; text-decoration: underline;\">velouracare.sa</a> واكتشفوا المنتجات التي تناسب احتياجاتكم.",
   "email_subscribing_order_now" => "اطلب الآن",
   "email_subscribing_order_now_mobile" => "تسوق الآن من خلال المتجر",
-  "email_subscribing_any_ask" => "في حال وجود أي استفسار أو إذا كنتم بحاجة إلى مساعدة، يُرجى التواصل مع فريق دعم تجارة الجملة لدينا عبر البريد الإلكتروني: <a style='color:#006DFF' href=\"mailto:info@velouracare.com\">info@velouracare.com</a>.",
+  "email_subscribing_any_ask" => "في حال وجود أي استفسار أو إذا كنتم بحاجة إلى مساعدة، يُرجى التواصل مع فريق دعم تجارة الجملة لدينا عبر البريد الإلكتروني: <a style='color:#006DFF' href=\"mailto:info@velouracare.sa\">info@velouracare.sa</a>.",
   "email_subscribing_footer_message" => "شكرًا لاختياركم شركة فيلاورا كير. نتطلع إلى شراكة مثمرة معكم!",
   'email_subscribing_unsubscribe_message' => 'لإلغاء اشتراكك في نشرتنا الإخبارية، يُرجى الضغط على الرابط التالي: ',
   'email_subscribing_unsubscribe_button' => 'إلغاء الاشتراك',
@@ -105,7 +105,7 @@ return [
   "email_registration_line_2" => "سيقوم فريقنا بفحص طلبكم بدقة للتأكد من صحة جميع البيانات، وهذا الإجراء يستغرق عادةً
   من 3 - 5 أيام عمل. نشكركم على صبركم خلال هذه الفترة.",
   "email_registration_line_3" => "سنقوم بإرسال إشعار عبر البريد الإلكتروني فور انتهاء معالجة طلبكم. وإذا لزم الأمر، سنطلب منكم بعض المعلومات الإضافية وسنتواصل معكم مباشرةً.",
-  "email_registration_line_4" => "في حال كانت لديكم أي استفسارات حول حالة طلبكم أو برنامج البيع بالجملة، يُرجى التواصل معنا عبر البريد الإلكتروني <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_registration_line_4" => "في حال كانت لديكم أي استفسارات حول حالة طلبكم أو برنامج البيع بالجملة، يُرجى التواصل معنا عبر البريد الإلكتروني <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_registration_footer_message" => "شكرًا لاختياركم شركة فيلاورا كير. نتطلع إلى شراكة مثمرة معكم!",
 
   // End email-registration
@@ -120,7 +120,7 @@ return [
   "email_approved_how_to_get_started_line_3" => "أضف المنتجات إلى سلة التسوق.",
   "email_approved_how_to_get_started_line_4" => "أكمل طلبك الآن: استمتع بأفضل الأسعار وتجربة شراء سلسة.",
   "email_approved_login" => "سجِل دخولك الى حسابك",
-  "email_approved_commit" => "نحن ملتزمون بتقديم منتجات وخدمات مميزة لكم. في حال كانت لديكم أي استفسارات أو كنتم بحاجة إلى أي مساعدة، يُرجى التواصل مع فريق دعم تجارة الجملة لدينا عبر البريد الإلكتروني <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_approved_commit" => "نحن ملتزمون بتقديم منتجات وخدمات مميزة لكم. في حال كانت لديكم أي استفسارات أو كنتم بحاجة إلى أي مساعدة، يُرجى التواصل مع فريق دعم تجارة الجملة لدينا عبر البريد الإلكتروني <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_approved_footer" => "شكرًا لاختياركم شركة فيلاورا كير. نتطلع إلى شراكة مثمرة معكم!",
 
   // End email-approved
@@ -130,7 +130,7 @@ return [
   "email_rejected_line_1" => "نشكركم على اهتمامكم بالشراكة مع فيلاورا كير وعلى تقديم طلبكم للانضمام إلى برنامج تجارة الجملة. ونقدر لكم الوقت الذي خصصتموه لتقديم الطلب.",
   "email_rejected_line_2" => "بعد دراسة طلبكم بعناية، نأسف لإبلاغكم بعدم إمكانية الموافقة عليه حالياً. قد يعود هذا القرار إلى عدة عوامل، منها على سبيل المثال [سبب محدد، مثل عدم استيفاء متطلبات الحد الأدنى للمشتريات، أو نقص في المعلومات المقدمة، أو تشبع السوق في منطقتكم].",
   "email_rejected_line_3" => "ندرك أن هذا الخبر قد يكون مخيباً للآمال، ولكن رغم عدم الموافقة على طلبكم كتاجر جملة، نرحب باهتمامكم بشركة فيلاورا كير.",
-  "email_rejected_line_4" => "إذا كانت لديكم أي استفسارات أو ترغبون في مناقشة طلبكم بشكل مفصل، فلا تترددوا في التواصل معنا عبر البريد الإلكتروني: <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_rejected_line_4" => "إذا كانت لديكم أي استفسارات أو ترغبون في مناقشة طلبكم بشكل مفصل، فلا تترددوا في التواصل معنا عبر البريد الإلكتروني: <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_rejected_line_5" => "يسعدنا تقديم المزيد من المعلومات وإطلاعكم على الفرص المتاحة في المستقبل.",
   "email_rejected_footer" => "شكرًا لاختياركم شركة فيلاورا كير. نتطلع إلى شراكة مثمرة معكم!",
 
@@ -182,7 +182,7 @@ return [
   "notify_back_in_stock_product_third_section" => "انقر على الزر أدناه لزيارة موقع شركة فيلاورا كير الإلكتروني واحصل على [:product_name] اليوم:",
   "notify_back_in_stock_product_button" => "تسوق الآن",
   'notify_back_in_stock_thanks' => 'نشكرك على صبركم وولائكم كعميل قيّم لدى شركة فيلاورا كير. نأمل أن يُلبي هذا المنتج احتياجات أعمالكم بكل سرور ورضا.',
-  "notify_back_in_stock_contact_for_help" => "لأي استفسارات أو مساعدة، لا تترددوا في التواصل مع فريق دعم العملاء لدينا على البريد الإلكتروني <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "notify_back_in_stock_contact_for_help" => "لأي استفسارات أو مساعدة، لا تترددوا في التواصل مع فريق دعم العملاء لدينا على البريد الإلكتروني <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "notify_back_in_stock_footer_message" => "نشكرك لاختيارك فيلاورا كير، شريكك المخلص في عالم الجمال والصحة.",
   //End notify back in stock
   //Emails

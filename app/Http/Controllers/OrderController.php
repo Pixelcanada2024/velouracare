@@ -691,7 +691,7 @@ class OrderController extends Controller
       $order->load(['orderDetails.product', 'user']);
       $info = [
         'phone' => get_setting('contact_phone') ?? '+966-112-860-262',
-        'email' => get_setting('contact_email') ?? 'info@velouracare.com',
+        'email' => get_setting('contact_email') ?? 'info@velouracare.sa',
         'location' => get_setting('contact_location') ?? 'Kingdom of Saudi Arabia - Riyadh - Al-Malaz - Salah Al-Din Al-Ayyubi Road ',
         'url' => url('/'),
       ];

@@ -89,13 +89,13 @@ return [
       'us'
     ],
     'domains' => [
-      'sa' => 'sa.velouracare.com',
-      'ae' => 'ae.velouracare.com',
-      'kw' => 'kw.velouracare.com',
-      'qa' => 'qa.velouracare.com',
-      'om' => 'om.velouracare.com',
-      'bh' => 'bh.velouracare.com',
-      'us' => 'velouracare.com'
+      'sa' => 'sa.velouracare.sa',
+      'ae' => 'ae.velouracare.sa',
+      'kw' => 'kw.velouracare.sa',
+      'qa' => 'qa.velouracare.sa',
+      'om' => 'om.velouracare.sa',
+      'bh' => 'bh.velouracare.sa',
+      'us' => 'velouracare.sa'
     ],
     'currencies' => [
       'sa' => 'SAR',

@@ -243,7 +243,7 @@ class HandleInertiaRequests extends Middleware
       'contact_info' => [
         'contact_address' => !empty($contact_address?->value) ? $contact_address->value : customTrans('address'),
         'contact_phone' => !empty($contact_phone?->value) ? $contact_phone->value : '+1-905-302-2795',
-        'contact_email' => !empty($contact_email?->value) ? $contact_email->value : 'info@velouracare.com',
+        'contact_email' => !empty($contact_email?->value) ? $contact_email->value : 'info@velouracare.sa',
         'work_hours' => !empty($work_hours?->value) ? $work_hours->value : customTrans('work_hours'),
       ],
 

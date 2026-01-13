@@ -95,10 +95,10 @@ return [
   "email_subscribing_by_subscribing_feature_one" => "Latest Product Launches: Be the first to know about the newest and most innovative products hitting the market.",
   "email_subscribing_by_subscribing_feature_two" => "Wholesale Deals & Promotions: Get insider access to special pricing and limited-time offers designed to boost your business.",
   "email_subscribing_by_subscribing_feature_three" => "Industry Insights: Stay ahead of the curve with trends, tips, and expert advice from the beauty industry.",
-  "email_subscribing_our_commit" => "We are dedicated to providing you with high-quality products and exceptional service to help your business thrive. Explore our extensive catalog at <a href=\":link\" target=\"_blank\" style=\"color: #0073e6!important; text-decoration: underline;\">velouracare.com</a> and discover the perfect additions to your inventory.",
+  "email_subscribing_our_commit" => "We are dedicated to providing you with high-quality products and exceptional service to help your business thrive. Explore our extensive catalog at <a href=\":link\" target=\"_blank\" style=\"color: #0073e6!important; text-decoration: underline;\">velouracare.sa</a> and discover the perfect additions to your inventory.",
   "email_subscribing_order_now" => "Order Now",
   "email_subscribing_order_now_mobile"=>"Order Now",
-  "email_subscribing_any_ask" => "If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_subscribing_any_ask" => "If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_subscribing_footer_message" => "Thank you for choosing Veloura Care. We look forward to a successful partnership!",
   "email_subscribing_unsubscribe_message" => "If you wish to unsubscribe from our newsletter, please click the following link:",
   "email_subscribing_unsubscribe_button" => "Unsubscribe",
@@ -111,7 +111,7 @@ return [
   "email_registration_line_1" => "Thank you for your interest in partnering with Veloura Care! We've received your wholesale application and are excited about the possibility of working with you.",
   "email_registration_line_2" => "Our team is now reviewing your application to ensure all details are in order. This process typically takes 3 - 5 business days. We appreciate your patience during this time.",
   "email_registration_line_3" => "We will notify you via email as soon as your application has been processed. If we require any additional information, we will reach out to you directly.",
-  "email_registration_line_4" => "Should you have any questions about your application status or our wholesale program, please don't hesitate to contact us at <a style='color:#006DFF'  href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_registration_line_4" => "Should you have any questions about your application status or our wholesale program, please don't hesitate to contact us at <a style='color:#006DFF'  href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_registration_footer_message" => "Thank you for choosing Veloura Care . We look forward to building a successful partnership!",
   // End email-registration
 
@@ -125,7 +125,7 @@ return [
   "email_approved_how_to_get_started_line_3" => "Add products to your shopping cart.",
   "email_approved_how_to_get_started_line_4" => "Place your first order: Enjoy competitive pricing and a seamless ordering experience.",
   "email_approved_login" => "Sign in to Your Account",
-  "email_approved_commit" => "We are committed to providing you with exceptional products and service. If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_approved_commit" => "We are committed to providing you with exceptional products and service. If you have any questions or require assistance, please don't hesitate to contact your dedicated wholesale support at <a href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_approved_footer" => "We look forward to a successful and prosperous partnership!",
   // End email-approved
 
@@ -134,7 +134,7 @@ return [
   "email_rejected_line_1" => "Thank you for your interest in partnering with Veloura Care and for submitting your wholesale application. We appreciate you taking the time to apply.",
   "email_rejected_line_2" => "After careful review, we regret to inform you that we are unable to approve your wholesale application at this time. This decision may be due to various factors, including but not limited to [specific reason, e.g., not meeting our minimum purchase requirements, incomplete information, or current market saturation in your area].",
   "email_rejected_line_3" => "We understand this news may be disappointing. While your wholesale application was not approved, we still value your interest in Veloura Care .",
-  "email_rejected_line_4" => "If you believe there has been a misunderstanding or if you would like to discuss your application further, please feel free to contact us at <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>.",
+  "email_rejected_line_4" => "If you believe there has been a misunderstanding or if you would like to discuss your application further, please feel free to contact us at <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>.",
   "email_rejected_line_5" => "We are happy to provide more detailed feedback and discuss potential future opportunities.",
   "email_rejected_footer" => "Thank you again for your interest in Veloura Care.",
 
@@ -190,7 +190,7 @@ return [
   "notify_back_in_stock_product_third_section"=>"Click the link below to head over to Veloura Care Company's website and grab your [:product_name] today:",
   "notify_back_in_stock_product_button"=>"Shop Product Now",
   "notify_back_in_stock_thanks"=>"Thank you for your patience and loyalty as a valued customer of Veloura Care Company. We hope this product brings joy and satisfaction to your business needs.",
-  "notify_back_in_stock_contact_for_help" => "For any inquiries or assistance, please feel free to reach out to our dedicated customer support team at <a style='color:#006DFF' href=\"mailto:Info@velouracare.com\">Info@velouracare.com</a>. Please reference your Request ID when communicating with us.",
+  "notify_back_in_stock_contact_for_help" => "For any inquiries or assistance, please feel free to reach out to our dedicated customer support team at <a style='color:#006DFF' href=\"mailto:Info@velouracare.sa\">Info@velouracare.sa</a>. Please reference your Request ID when communicating with us.",
   'notify_back_in_stock_footer_message'=>"Thank you for choosing Veloura Care, your loyal partner in beauty & wellness.",
   //End notify back in stock
 

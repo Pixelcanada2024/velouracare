@@ -764,7 +764,7 @@ Route::controller(ContactController::class)->group(function () {
 // Info For Emails
 $info = [
   'phone' => get_setting('contact_phone') ?? '+966 112 860 262',
-  'email' => get_setting('contact_email') ?? 'info@velouracare.com',
+  'email' => get_setting('contact_email') ?? 'info@velouracare.sa',
   'address' => get_setting('contact_address') ?? 'Kingdom of Saudi Arabia – Riyadh – Al-Malaz – Salah Al-Din Al-Ayyubi Road ',
   'facebook' => get_setting('facebook_link') ?? '#',
   'twitter' => get_setting('twitter_link') ?? '#',
@@ -779,7 +779,7 @@ $info = [
 
 //   $user->load('businessInfo');
 
-//   $registrationNotificationEmail = get_setting('registration_notification_email') ?? 'info@velouracare.com';
+//   $registrationNotificationEmail = get_setting('registration_notification_email') ?? 'info@velouracare.sa';
 
 //   Mail::send('emails.admin_new_registration', ['user' => $user], function ($message) use ($registrationNotificationEmail) {
 //     $message->to($registrationNotificationEmail)
@@ -846,7 +846,7 @@ Route::get('/test-order-emails', function () use ($info) {
 
   $info = [
     'phone' => get_setting('contact_phone') ?? '+1-905-302-2795',
-    'email' => get_setting('contact_email') ?? 'info@velouracare.com',
+    'email' => get_setting('contact_email') ?? 'info@velouracare.sa',
     'address' => get_setting('contact_address') ?? ' Kingdom of Saudi Arabia - Riyadh - Al-Malaz - Salah Al-Din Al-Ayyubi Road ',
     'url' => url('/'),
   ];

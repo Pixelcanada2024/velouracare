@@ -18,7 +18,7 @@
                             <div class="col-sm-8">
                                 <input type="hidden" name="types[]" value="registration_notification_email">
                                 <input type="text" name="registration_notification_email" class="form-control"
-                                    placeholder="{{ translate('Registration Notification Email') }}" value="{{ get_setting('registration_notification_email') ?? 'info@velouracare.com ' }} ">
+                                    placeholder="{{ translate('Registration Notification Email') }}" value="{{ get_setting('registration_notification_email') ?? 'info@velouracare.sa ' }} ">
                             </div>
                         </div>
                         <!-- Update Button -->
