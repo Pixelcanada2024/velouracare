@@ -54,15 +54,13 @@ export default function Home({
       <div className=' mx-auto space-y-15 mt-10 mb-20'>
 
         {/* Hero Section */}
-        <Hero home_hero_main={home_hero_main_mobile} home_hero_one={home_hero_one_mobile} home_hero_two={home_hero_two_mobile} containerClassName="sm:hidden" imageLinks={imageLinks} />
         <Hero home_hero_main={home_hero_main} home_hero_one={home_hero_one} home_hero_two={home_hero_two} containerClassName="max-sm:hidden" imageLinks={imageLinks} />
+        <Hero home_hero_main={home_hero_main_mobile} home_hero_one={home_hero_one_mobile} home_hero_two={home_hero_two_mobile} containerClassName="sm:hidden" imageLinks={imageLinks} />
 
         {/* Category Section */}
         <Categories
           categories={categories}
         />
-
-
 
         {/* Who We Are */}
         <WhoWeAre
