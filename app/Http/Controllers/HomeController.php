@@ -76,56 +76,29 @@ class HomeController extends Controller
 
   public function changeLocale(Request $request)
   {
-    if ( config('app.is_america')  ) return ;
     $env = config('app.env') ?? 'local'; // works only in production
 
     $locale = $request->input('locale');
     $currency = $request->input('currency');
-    $country = $request->input('country');
 
     if (!in_array($locale, ['en', 'ar'])) {
       return response()->json(['error' => 'Invalid locale'], 400);
     }
 
-    if (!in_array($currency, ['SAR', 'AED','KWD','QAR','OMR','BHD' ,'USD'])) {
+    // Since currency is always SAR now
+    if ($currency !== 'SAR') {
       return response()->json(['error' => 'Invalid currency'], 400);
     }
 
-    $allowedCountries = config('app.countries');
-
-    if (!in_array($country, $allowedCountries)) {
-      return response()->json(['error' => 'Invalid country'], 400);
-    }
-
-    $domains = config('app.domains');
-
-    $oldCountry = Session::get('country' , 'sa');
-
-    if ( $country != 'us' ) {
-
-      if ( $oldCountry != $country ) {
-        $newDomain = $domains[$country];
-        $path = Route::getRoutes()->getByName('react.home')->uri();
-        $queryString = $request->getQueryString();
-        $fullUrl = 'https://' . $newDomain . '/' . $path . ($queryString ? '?' . $queryString : '');
-      }
-
       Session::put('locale', $locale);
-      Session::put('currency', config('app.currencies')[$country]);
-      Session::put('country', $country);
+      Session::put('currency', 'SAR'); // Always SAR
 
       app()->setLocale($locale);
-    } else {
-        $newDomain = $domains[$country];
-        $path = Route::getRoutes()->getByName('react.home')->uri();
-        $queryString = $request->getQueryString();
-        $fullUrl = 'https://' . $newDomain . '/' . $path . '?redirected=1';
-    }
 
     return response()->json([
       'success' => true,
       'message' => "Preferences updated successfully",
-      'redirectUrl' => $fullUrl ?? null ,
+      'redirectUrl' => null ,
       'env' => $env
     ]);
   }

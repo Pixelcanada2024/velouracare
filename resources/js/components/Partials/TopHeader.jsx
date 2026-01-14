@@ -4,20 +4,19 @@ import NavLink from "@/components/ui/NavLink";
 import Button from "../ui/Button";
 import Modal from "@/components/ui/Modal";
 import SearchComponent from "../Layout/Partials/Search/SearchComponent";
-import PreferencesModal from "../layout/Partials/PreferencesModal";
+import { useCart } from "@/contexts/CartItemsContext";
+import LogoutModal from "./Partials/LogoutModal";
 
 // start lang
 import ar from "@/translation/ar"
 import en from "@/translation/en"
-import { useCart } from "@/contexts/CartItemsContext";
-import LogoutModal from "./Partials/LogoutModal";
+import LanguageChanger from "./Partials/LanguageChanger";
 // end lang
 
 export default function TopHeader() {
 
   const contact_info = usePage().props.contact_info;
-  const links = usePage().props.footer_links;
-  const { isSkyAmerica } = usePage().props;
+
   //  get user total qty
   const { cartData, updateCart } = useCart();
   const userId = usePage().props?.auth?.user?.id ?? null;
@@ -46,12 +45,8 @@ export default function TopHeader() {
 
   const toggleLogoutModal = () => { setLogoutModalOpen(!isLogoutModalOpen); }
 
-  // Start language
-  const preferences = usePage().props.preferences;
 
   const { csrfToken } = usePage().props;
-
-  const [isPreferencesModalOpen, setPreferencesModalOpen] = useState(false);
 
   const lang = usePage().props.locale
   const tr = lang === "ar" ? ar : en
@@ -61,33 +56,11 @@ export default function TopHeader() {
       <div className="container mx-auto flex justify-between items-center">
         {/* <div className="flex justify-between items-center gap-3 max-lg:hidden"> */}
         <div className="flex justify-between items-center gap-3 ">
-          {/* <div className="flex justify-between items-center gap-2">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.16701 8.21663C5.76715 11.7005 8.60983 14.4617 12.1387 15.96L12.7053 16.2125C13.3329 16.4919 14.0389 16.5409 14.699 16.3508C15.3591 16.1607 15.9309 15.7437 16.3137 15.1733L17.0545 14.07C17.1704 13.8969 17.2174 13.6868 17.1861 13.4808C17.1547 13.2749 17.0475 13.0882 16.8853 12.9575L14.3753 10.9325C14.2879 10.862 14.1872 10.8099 14.0791 10.7793C13.9711 10.7488 13.858 10.7404 13.7466 10.7546C13.6352 10.7689 13.5279 10.8055 13.431 10.8622C13.3341 10.919 13.2497 10.9948 13.1828 11.085L12.4062 12.1325C10.4125 11.1478 8.79878 9.5338 7.8145 7.53997L8.86117 6.7633C8.95138 6.69643 9.02714 6.61203 9.08391 6.51515C9.14068 6.41827 9.17728 6.31092 9.19152 6.19954C9.20577 6.08817 9.19735 5.97506 9.16679 5.86701C9.13623 5.75897 9.08415 5.65821 9.01367 5.5708L6.98867 3.0608C6.85792 2.89868 6.6712 2.79139 6.46529 2.76008C6.25938 2.72877 6.0492 2.7757 5.87617 2.89163L4.76534 3.63663C4.19151 4.02145 3.77291 4.59748 3.58413 5.2621C3.39535 5.92673 3.44864 6.63679 3.7345 7.2658L4.16701 8.21663Z" fill="#F4F4F4" />
-            </svg>
-            <span className='font-inter'>{contact_info.contact_phone}</span>
-          </div> */}
 
-          {!isSkyAmerica &&
-            <>
-              <button className='cursor-pointer' onClick={() => setPreferencesModalOpen(true)} dir='ltr'>
-                <div className='border border-white rounded-3xl flex items-center justify-between gap-3 py-[2px] px-4 xl:py-1 text-xs sm:text-sm' >
-                  <span className='uppercase text-[#F4F4F4] '>{preferences.currency}</span>
-                  <div className="w-[2px] h-6 bg-[#FFFFFF33]"></div>
-                  <span className='uppercase text-[#F4F4F4]'>{preferences.locale}</span>
-                  <div className="w-[2px] h-6 bg-[#FFFFFF33]"></div>
-                  <div className='flex items-center gap-2'>
-                    <span className='uppercase text-[#F4F4F4]'>{preferences.country}</span>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 7.5H17M3 12.5H17M2.5 10C2.5 10.9849 2.69399 11.9602 3.0709 12.8701C3.44781 13.7801 4.00026 14.6069 4.6967 15.3033C5.39314 15.9997 6.21993 16.5522 7.12987 16.9291C8.03982 17.306 9.01509 17.5 10 17.5C10.9849 17.5 11.9602 17.306 12.8701 16.9291C13.7801 16.5522 14.6069 15.9997 15.3033 15.3033C15.9997 14.6069 16.5522 13.7801 16.9291 12.8701C17.306 11.9602 17.5 10.9849 17.5 10C17.5 8.01088 16.7098 6.10322 15.3033 4.6967C13.8968 3.29018 11.9891 2.5 10 2.5C8.01088 2.5 6.10322 3.29018 4.6967 4.6967C3.29018 6.10322 2.5 8.01088 2.5 10Z" stroke="#F4F4F4" strokeWidth="0.833333" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M9.58566 2.5C8.18178 4.74968 7.4375 7.34822 7.4375 10C7.4375 12.6518 8.18178 15.2503 9.58566 17.5M10.419 2.5C11.8229 4.74968 12.5672 7.34822 12.5672 10C12.5672 12.6518 11.8229 15.2503 10.419 17.5" stroke="#F4F4F4" strokeWidth="0.833333" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                </div>
-              </button>
-              <div className="w-[2px] h-6 bg-[#FFFFFF33] max-lg:hidden"></div>
-            </>
-          }
+
+          <LanguageChanger />
+
+          <div className="w-[2px] h-6 bg-[#FFFFFF33] max-lg:hidden"></div>
 
 
           <div className="flex justify-between items-center gap-2 max-lg:hidden" dir='ltr'>
@@ -215,12 +188,6 @@ export default function TopHeader() {
 
 
       <LogoutModal isModalOpen={isLogoutModalOpen} setModalOpen={setLogoutModalOpen} toggleModal={toggleLogoutModal} />
-
-      {/* Language Modal */}
-      {!isSkyAmerica && <PreferencesModal
-        isOpen={isPreferencesModalOpen}
-        onClose={() => setPreferencesModalOpen(false)}
-      />}
 
     </div>
   )

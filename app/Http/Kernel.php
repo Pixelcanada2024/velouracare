@@ -40,7 +40,6 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \App\Http\Middleware\RedirectToCountrySubdomain::class,
             //\App\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             // \Illuminate\Session\Middleware\StartSession::class,
@@ -51,12 +50,10 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\Language::class,
             \App\Http\Middleware\HttpsProtocol::class,
             \App\Http\Middleware\CheckForMaintenanceMode::class,
-            
-            \App\Http\Middleware\CheckIfComingSoon::class,
-            
-            \App\Http\Middleware\SetLocale::class,
 
-            \App\Http\Middleware\SubdomainPreferences::class,
+            \App\Http\Middleware\CheckIfComingSoon::class,
+
+            \App\Http\Middleware\SetLocale::class,
 
             \App\Http\Middleware\HandleInertiaRequests::class,
             // \App\Http\Middleware\EnsureInertiaPageResponse::class,

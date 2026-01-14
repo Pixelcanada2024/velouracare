@@ -131,7 +131,7 @@ return [
     |
     */
 
-    'locale' => env('DEFAULT_LANGUAGE', 'en'),
+    'locale' => env('DEFAULT_LANGUAGE', 'ar'),
 
     /*
     |--------------------------------------------------------------------------
@@ -202,7 +202,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         KingFlamez\Rave\RaveServiceProvider::class,
-        
+
         /*
          * Package Service Providers...
          */
