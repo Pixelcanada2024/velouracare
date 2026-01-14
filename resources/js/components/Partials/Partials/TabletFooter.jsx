@@ -122,7 +122,7 @@ export default function TabletFooter({ FooterLogo }) {
                   </svg>
                 </span>
               </div>
-              <button className="text-sm sm:text-base cursor-pointer w-full mt-3 font-bold text-white px-4 py-[12px] sm:py-[13px] bg-[#004AAD] border border-[#555555] rounded-full focus:outline-none uppercase">
+              <button className="text-sm sm:text-base cursor-pointer w-full mt-3 font-bold text-white px-4 py-[12px] sm:py-[13px] bg-[#0D0D0D] border border-[#555555] rounded-full focus:outline-none uppercase">
                 {tr["subscribe_now"]}
               </button>
             </form>

@@ -14,7 +14,7 @@ export default function DiscoverTopPicks({ featured_products, new_arrivals, top_
   return (
     <section className='mt-16 bg-[#F2F4F7] p-4 sm:p-8 '>
       <div className="flex flex-col container">
-        <div className="flex items-center gap-2 text-lg font-semibold justify-center" ><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['discover_our_top_picks']}</div>
+        <div className="flex items-center gap-2 text-lg font-semibold justify-center" ><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['discover_our_top_picks']}</div>
 
         {/* Tabs Navigation */}
         <div className="flex justify-center my-6">

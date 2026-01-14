@@ -13,7 +13,7 @@ export default function OurLatestPosts({ blogs = [] }) {
     <div className='container'>
       <div className='mb-16'>
         <div className="flex items-center gap-2 max-sm:text-xs font-semibold">
-          <div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['news_feeds']}
+          <div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['news_feeds']}
         </div>
         <h2 style={{ fontFamily: 'Times New Roman' }} className='text-2xl sm:text-4xl font-bold mt-2'>
           {tr['our_latest_posts']}

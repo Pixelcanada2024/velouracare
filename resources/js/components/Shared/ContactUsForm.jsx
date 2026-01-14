@@ -30,7 +30,7 @@ export default function ContactUsForm({ page }) {
     <div className="relative border border-white rounded-lg overflow-hidden bg-white/10 backdrop-blur-lg shadow-md p-4 sm:p-6 xl:p-12 max-h-230">
       <div className=" rounded-lg">
         {page === 'home' && (<>
-          <div className="flex items-center gap-2 font-semibold"><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['get_in_touch']}</div>
+          <div className="flex items-center gap-2 font-semibold"><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['get_in_touch']}</div>
           <h2 style={{ fontFamily: 'Times New Roman' }} className="text-[22px] sm:text-[28px] xl:text-[34px] font-bold mt-2">{tr['contact_us']}</h2>
         </>)}
         {page === 'contact-us' && (<>

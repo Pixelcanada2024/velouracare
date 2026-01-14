@@ -185,7 +185,7 @@ export default function Filters({ filterOptionsData = {}, queryParams = {}, filt
           size='md'
           variant='primary'
           onClick={() => addSelectedItemsToCart()}
-          className=' !bg-[#004AAD] !py-2 max-sm:!px-5 sm:!px-15 !rounded-md !text-sm'
+          className=' !bg-[#0D0D0D] !py-2 max-sm:!px-5 sm:!px-15 !rounded-md !text-sm'
           id='add-selected-to-cart-btn'
         >
           <span className='max-sm:hidden'>

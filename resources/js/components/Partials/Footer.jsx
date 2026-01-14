@@ -15,7 +15,7 @@ export default function Footer({ ShowFooterSwiper }) {
   // Start language
   const [{lang, currency, tr}, _setTranslation] = useTranslation();
   // end lang
-  
+
   return (
     <>
 
@@ -30,7 +30,7 @@ export default function Footer({ ShowFooterSwiper }) {
         </div>
 
         {/* Copyright Bar */}
-        <div className="bg-[#004AAD] -mb-2">
+        <div className="bg-[#0D0D0D] -mb-2">
           <div className="container max-lg:flex-col gap-3 flex justify-between items-center py-4 mx-auto [&_*]:text-white  [&_*]:max-lg:!text-xs [&_*]:lg:!text-sm text-center  ">
             <div className="">©  Veloura Care {new Date().getFullYear()} | {tr['all_rights_reserved']}</div>
             <div>

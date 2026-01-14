@@ -18,7 +18,7 @@ export default function FAQ({ faqs }) {
 
       <div className="m-5 mt-8 sm:m-6 xl:my-18 xl:w-1/2">
         <div className="mb-8">
-          <div className="flex items-center gap-2 max-xl:text-xs font-semibold"><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['faqs']}</div>
+          <div className="flex items-center gap-2 max-xl:text-xs font-semibold"><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['faqs']}</div>
           <h2 className="text-2xl sm:text-4xl font-bold mt-2">{tr['have_any_questions']}</h2>
 
           <p className="mt-2">

@@ -22,7 +22,7 @@ export default function Categories({ categories }) {
   return (
     <section className='container'>
       <div>
-        <div className="flex items-center gap-2 max-sm:text-xs font-semibold"><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['search_and_explore']}</div>
+        <div className="flex items-center gap-2 max-sm:text-xs font-semibold"><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['search_and_explore']}</div>
         <h2 className='text-2xl sm:text-4xl font-bold mt-2'>{tr['our_categories']}</h2>
       </div>
 

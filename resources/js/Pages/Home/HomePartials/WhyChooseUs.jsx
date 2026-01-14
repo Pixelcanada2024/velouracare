@@ -11,7 +11,7 @@ export default function WhyChooseUs({ whyChooseUsImages, textContent }) {
   return (
     <div className='container xl:space-y-15 mx-auto'>
       <div>
-        <div className="flex items-center gap-2 max-sm:text-xs font-semibold"><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['our_values']}</div>
+        <div className="flex items-center gap-2 max-sm:text-xs font-semibold"><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['our_values']}</div>
         <h2 style={{ fontFamily: 'Times New Roman' }} className='text-2xl sm:text-4xl font-bold mt-2'>{tr['why_choose_us']}</h2>
       </div>
 

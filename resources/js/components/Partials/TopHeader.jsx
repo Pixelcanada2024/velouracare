@@ -57,7 +57,7 @@ export default function TopHeader() {
   const tr = lang === "ar" ? ar : en
   // end lang
   return (
-    <div className="flex justify-between items-center bg-[#004AAD] text-sm  p-2">
+    <div className="flex justify-between items-center bg-[#0D0D0D] text-sm  p-2">
       <div className="container mx-auto flex justify-between items-center">
         {/* <div className="flex justify-between items-center gap-3 max-lg:hidden"> */}
         <div className="flex justify-between items-center gap-3 ">

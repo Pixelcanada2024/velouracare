@@ -12,7 +12,7 @@ export default function PartnersInSuccess({ partnersImageWeb, partnersImageTable
       <div className='container justify-between flex max-xl:flex-col gap-10 py-12 xl:py-24'>
         <div className='w-full lg:w-1/2'>
           <div>
-            <div className="flex items-center gap-2 max-sm:text-xs font-semibold"><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['who_we_work_with']}</div>
+            <div className="flex items-center gap-2 max-sm:text-xs font-semibold"><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['who_we_work_with']}</div>
             <h2 style={{ fontFamily: 'Times New Roman' }} className='text-2xl sm:text-4xl font-bold mt-2'>{tr['partners_in_success']}</h2>
             <p className='text-[#222222] mt-6 sm:mt-10 text-base sm:text-lg'>{textContent.home_partners_in_success_desc}</p>
           </div>

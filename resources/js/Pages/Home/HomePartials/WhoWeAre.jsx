@@ -18,7 +18,7 @@ export default function WhoWeAre({ whoWeAreImages, textContent }) {
           {/* First row */}
           <div className="space-y-4 bg-[#F2F4F7] p-4 sm:p-8 rounded-2xl">
             <div>
-              <div className="flex items-center gap-2 font-semibold "><div className="bg-[#004AAD] w-3 h-[2px]"></div>{tr['who_we_are']}</div>
+              <div className="flex items-center gap-2 font-semibold "><div className="bg-[#0D0D0D] w-3 h-[2px]"></div>{tr['who_we_are']}</div>
               <h2 className="text-2xl sm:text-4xl font-bold ">{textContent?.who_we_are_title || 'We Are Distributors'}</h2>
             </div>
             <p className='text-[#222222]'>
