@@ -5,6 +5,10 @@ export default {
   "ar": "Arabic",
   "test": "Test",
 
+  "Veloura Care": "Veloura Care",
+  "VelouraCare": "Veloura Care",
+  "veloura_care": "Veloura Care",
+
   //General
   "language": "Language",
   "currency": "Currency",
@@ -813,5 +817,7 @@ export default {
 
 
   "validator_email_exists":"Dear user, the email you entered is not registered on the site. Please make sure to enter a valid email to complete the process.",
+
+  "footer_veloura_description":'Veloura Care is a trusted B2B wholesaler specializing in premium health and beauty products. ',
 
 }

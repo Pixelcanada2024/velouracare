@@ -174,7 +174,7 @@ export default function TopHeader() {
                 <Link href={route("react.cart")} >
                   <div className="flex items-center gap-2 cursor-pointer">
                     <div className="relative">
-                      <span className={"absolute bg-white text-[9px] font-bold text-[#004AAD] rounded-full grid place-items-center " +
+                      <span className={"absolute bg-white text-[9px] font-bold text-[#0D0D0D] rounded-full grid place-items-center " +
                         (totalQty > 99 ? " w-6 h-6 -top-4 -right-4 " : (totalQty > 9 ? " w-5 h-5 -top-3 -right-3 " : " w-4 h-4 -top-2 -right-2 "))}>
                         {totalQty}
                       </span>

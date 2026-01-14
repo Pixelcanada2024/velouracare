@@ -10,7 +10,7 @@ export default function WebFooter({ FooterLogo }) {
   const { csrfToken } = usePage().props;
 
   // Start language
-  const [{lang, currency, tr}, _setTranslation] = useTranslation();
+  const [{ lang, currency, tr }, _setTranslation] = useTranslation();
   // end lang
 
   const meta = usePage().props.meta;
@@ -22,33 +22,18 @@ export default function WebFooter({ FooterLogo }) {
       {/* Website */}
       <div className="hidden xl:gap-5 xl:flex-row xl:flex xl:flex-wrap xl:justify-between ">
 
-        {/* Logo & Description | First Col*/}
-        <div className="w-[350px] space-y-5 relative -top-4">
-
-          <div className="w-[297px]">
-            <NavLink className='w-full' href={route("react.home")}>
-              <FooterLogo />
-            </NavLink>
+        {/* Quick Links  */}
+        <div className='relative'>
+          <h3 className="mb-4 font-bold text-xl" style={{ fontFamily: "Times New Roman" }}>
+            {tr["footer_contact_us"]}:
+          </h3>
+          <div className="mt-2 -mx-1">
+            <a href={footer_links.whatsapp_link} target="_blank" rel="noopener noreferrer">
+              <img src={footer_qr_code} alt="QR Code" className="w-[202px] h-[202px]" />
+            </a>
           </div>
-
-          <p className=" text-[15px] sm:text-base text-[#333333]">
-            {tr["footer_company_info"]}
-          </p>
-
-          <div className="mt-5">
-            <h2 className='text-base font-bold uppercase'> {tr["contact_us"]}: {" "}</h2>
-            <div className="mt-2 -mx-1">
-              <a href={footer_links.whatsapp_link} target="_blank" rel="noopener noreferrer">
-                <img src={footer_qr_code} alt="QR Code" className="w-48 h-48" />
-              </a>
-            </div>
-          </div>
-
-
-
         </div>
-
-        {/* Quick Links | Second Col */}
+        {/* Quick Links  */}
         <div className='relative'>
           <h3 className="mb-4 font-bold text-xl" style={{ fontFamily: "Times New Roman" }}>
             {tr["quick_links"]}
@@ -76,15 +61,11 @@ export default function WebFooter({ FooterLogo }) {
             </li>
 
           </ul>
-          {/* Social Links */}
-          { !!footer_links.show && <div className='mt-12 space-y-4 absolute'>
-            <h2 className='text-base font-bold uppercase'> {tr["follow_us_on_social_media"]}</h2>
-            <SocialIcons />
-          </div>}
+
         </div>
 
 
-        {/* Other Links | Third Col*/}
+        {/* Other Links */}
         <div>
           <h3 className="mb-4 font-bold text-xl" style={{ fontFamily: "Times New Roman" }}>
             {tr["other_links"]}
@@ -113,7 +94,7 @@ export default function WebFooter({ FooterLogo }) {
           </ul>
         </div>
 
-        {/*Newsletter | Fourth Col*/}
+        {/*Newsletter */}
         <div className="w-[380px]">
           <div>
             <h3 className="mb-4 font-bold text-xl" style={{ fontFamily: "Times New Roman" }}>

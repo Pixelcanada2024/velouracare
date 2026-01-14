@@ -7,14 +7,16 @@ import { Link, usePage } from "@inertiajs/react";
 
 // start lang
 import { useTranslation } from "@/contexts/TranslationContext";
+import SocialIcons from "./Partials/SocialIcons";
 // end lang
 export default function Footer({ ShowFooterSwiper }) {
 
   const { auth: { user } } = usePage().props;
 
   // Start language
-  const [{lang, currency, tr}, _setTranslation] = useTranslation();
+  const [{ lang, currency, tr }, _setTranslation] = useTranslation();
   // end lang
+  const footer_links = usePage().props.footer_links;
 
   return (
     <>
@@ -24,15 +26,45 @@ export default function Footer({ ShowFooterSwiper }) {
       )}
       <footer className="  shadow-[0_-4px_10px_rgba(0,0,0,0.1)] ">
 
-        <div className=" relative">
-          <WebFooter FooterLogo={FooterLogo} />
-          <TabletFooter FooterLogo={FooterLogo} />
+        <div className="container mx-auto px-4 flex justify-center py-8">
+          <div className="flex flex-col items-center">
+            <div className="w-[310px]">
+              <Link href={route("react.home")}>
+                <FooterLogo />
+              </Link>
+            </div>
+            <p className="text-center max-w-sm max-sm:text-sm">
+              {tr["footer_veloura_description"]}
+            </p>
+          </div>
         </div>
+
+
+        {/* Social Links */}
+        {!!footer_links.show && (
+          <div>
+            <div className="flex items-center gap-4 max-sm:container max-sm:mx-auto max-sm:px-4">
+              {/* Left Line */}
+              <div className="flex-1 h-[1px] bg-gray-300"></div>
+
+              {/* Social Icons */}
+              <div className="flex-shrink-0">
+                <SocialIcons />
+              </div>
+
+              {/* Right Line */}
+              <div className="flex-1 h-[1px] bg-gray-300"></div>
+            </div>
+          </div>
+        )}
+
+        <WebFooter FooterLogo={FooterLogo} />
+        <TabletFooter FooterLogo={FooterLogo} />
 
         {/* Copyright Bar */}
         <div className="bg-[#0D0D0D] -mb-2">
           <div className="container max-lg:flex-col gap-3 flex justify-between items-center py-4 mx-auto [&_*]:text-white  [&_*]:max-lg:!text-xs [&_*]:lg:!text-sm text-center  ">
-            <div className="">©  Veloura Care {new Date().getFullYear()} | {tr['all_rights_reserved']}</div>
+            <div className="">©  {tr["veloura_care"]} {new Date().getFullYear()} | {tr['all_rights_reserved']}</div>
             <div>
               <ul className="flex gap-8 items-center">
                 <li>

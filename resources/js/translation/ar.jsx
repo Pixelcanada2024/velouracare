@@ -9,6 +9,7 @@ export default {
   //General
   "Veloura Care": "فيلاورا كير",
   "VelouraCare": "فيلاورا كير",
+  "veloura_care": "فيلاورا كير",
   "language": "اللغة",
   "currency": "العملة",
   "country_region": "الدولة / المنطقة",
@@ -828,4 +829,7 @@ export default {
 
   "validator_email_exists":"عزيزي المستخدم البريد الإلكتروني الذي ادخلته غير مسجل في الموقع، يرجى التأكد من ادخال بريد إلكتروني صحيح لاتمام العملية",
 
+
+
+  "footer_veloura_description":"فيلاورا كير هو منصة تجارية الكترونية متخصصة في بيع منتجات الصحة والجمال بالجملة.",
 }

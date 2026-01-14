@@ -24,13 +24,6 @@ export default function TabletFooter({ FooterLogo }) {
       {/* Website */}
       <div className="flex-wrap justify-between gap-24 xl:flex-row xl:flex">
 
-        {/* Logo */}
-        <div className="w-[203px] sm:w-[243px]">
-          <NavLink href="/">
-            <FooterLogo />
-          </NavLink>
-        </div>
-
         {/* Accordion */}
         <div className="my-4 sm:my-8 ">
           <FooterAccordionGroup>
@@ -88,7 +81,7 @@ export default function TabletFooter({ FooterLogo }) {
         </div>
 
 
-        {/*Newsletter && Call | Social Links*/}
+        {/*Newsletter && Call*/}
         <div className='flex max-sm:flex-col  gap-4 '>
           {/* Newsletter */}
           <div className='sm:w-[50%]  max-sm:pb-5'>
@@ -118,7 +111,7 @@ export default function TabletFooter({ FooterLogo }) {
                   (lang == "ar" ? "left-2 rotate-270" : "right-2")
                 } >
                   <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.25 0L0.25 9L5.35938 10.8906L13.25 3.5L7.25 11.5938V16L10.125 12.6562L13.75 14L16.25 0Z" fill="#004AAD" />
+                    <path d="M16.25 0L0.25 9L5.35938 10.8906L13.25 3.5L7.25 11.5938V16L10.125 12.6562L13.75 14L16.25 0Z" fill="#0D0D0D" />
                   </svg>
                 </span>
               </div>
@@ -126,11 +119,6 @@ export default function TabletFooter({ FooterLogo }) {
                 {tr["subscribe_now"]}
               </button>
             </form>
-
-            {!!footer_links.show && <div className='mt-8 mb-6 space-y-4 max-sm:hidden'>
-              <h2 className='text-base font-bold uppercase'> {tr["follow_us_on_social_media"]}</h2>
-              <SocialIcons />
-            </div>}
           </div>
 
           <div className="md:w-[5%] xl:hidden"></div>
@@ -140,19 +128,12 @@ export default function TabletFooter({ FooterLogo }) {
           {/* Call QR code */}
           <div className='sm:w-[40%] space-y-4 '>
 
-            {!!footer_links.show && <div className='sm:hidden max-sm:flex max-sm:justify-center mb-8'>
-              <div className=" space-y-4">
-                <h2 className='text-base font-bold uppercase text-center'> {tr["follow_us"]}</h2>
-                <SocialIcons />
-              </div>
-            </div>}
-
             <div className="max-sm:flex max-sm:justify-center">
               <div>
-                <h2 className='text-lg font-bold uppercase max-sm:text-center'> {tr["contact_us"]}: {" "}</h2>
+                <h2 className='text-lg font-bold uppercase max-sm:text-center'> {tr["footer_contact_us"]}: {" "}</h2>
                 <div className="mt-2 -mx-1">
                   <a href={footer_links.whatsapp_link} target="_blank" rel="noopener noreferrer">
-                    <img src={footer_qr_code} alt="QR Code" className="w-[200px] h-[200px]  sm:w-full  sm:h-full sm:aspect-[1/1] lg:p-10" />
+                    <img src={footer_qr_code} alt="QR Code" className="w-[196px] h-[196px] lg:p-10" />
                   </a>
                 </div>
               </div>
