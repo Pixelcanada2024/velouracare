@@ -8,7 +8,7 @@ import { useTranslation } from "@/contexts/TranslationContext";
 
 export default function TabletNavigation() {
   // Start language
-  const [{lang, currency, tr}, _setTranslation] = useTranslation();
+  const [{ lang, currency, tr }, _setTranslation] = useTranslation();
   // end lang
   const { csrfToken } = usePage().props;
 
@@ -53,15 +53,10 @@ export default function TabletNavigation() {
         className="xl:hidden cursor-pointer"
       >
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="32" height="32" rx="16" fill="url(#paint0_linear_2244_18718)" />
-          <path d="M8.5 21V19.3333H23.5V21H8.5ZM8.5 16.8333V15.1667H23.5V16.8333H8.5ZM8.5 12.6667V11H23.5V12.6667H8.5Z" fill="white" />
-          <defs>
-            <linearGradient id="paint0_linear_2244_18718" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#003070" />
-              <stop offset="1" stop-color="#006DFF" />
-            </linearGradient>
-          </defs>
+          <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" stroke="#0D0D0D" />
+          <path d="M8.5 21V19.3333H23.5V21H8.5ZM8.5 16.8333V15.1667H23.5V16.8333H8.5ZM8.5 12.6667V11H23.5V12.6667H8.5Z" fill="#0D0D0D" />
         </svg>
+
       </button>
 
       <div
@@ -73,7 +68,7 @@ export default function TabletNavigation() {
         <nav className="w-full h-full overflow-y-auto">
           {/* Close button, Menu button */}
 
-          <div className="flex justify-between items-center bg-[#0148B3] px-6 py-3 ">
+          <div className="flex justify-between items-center bg-[#0D0D0D] px-6 py-3 ">
 
             {/* Menu button */}
 
@@ -98,7 +93,7 @@ export default function TabletNavigation() {
             >
               <svg className="w-full h-full" viewBox="0 0 49 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="49" height="49" fill="white" />
-                <path d="M16 31L34 13M34 31L16 13" stroke="#0148B3" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M16 31L34 13M34 31L16 13" stroke="#0D0D0D" strokeWidth="2" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
 

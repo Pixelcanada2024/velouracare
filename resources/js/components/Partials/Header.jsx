@@ -19,7 +19,7 @@ export default function Header({ pageTitle, breadcrumbs, hasTitleHeader = false 
 
           {/* Logo */}
           <div className="flex items-center">
-            <Link href={route("react.home")} className="w-[40px] lg:w-[180px]">
+            <Link href={route("react.home")} className="w-[120px] lg:w-[180px]">
               <HeaderLogo />
             </Link>
           </div>

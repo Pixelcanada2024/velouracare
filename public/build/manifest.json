@@ -52,21 +52,20 @@
     "src": "public/website-assets/register/report_3.png"
   },
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-Kc3Q2rJ_.css",
+    "file": "assets/tailwind-CpgHNitg.css",
     "src": "resources/css/tailwind.css",
     "isEntry": true
   },
   "resources/js/react.jsx": {
-    "file": "assets/react-CWWdPvsV.js",
+    "file": "assets/react-BrDKbvmx.js",
     "name": "react",
     "src": "resources/js/react.jsx",
     "isEntry": true,
     "css": [
-      "assets/react-DC2QxIEI.css"
+      "assets/react-CYeiGHdZ.css"
     ],
     "assets": [
       "assets/footer_logo-MSqnm7jf.png",
-      "assets/logo-icon-C46VIT4M.png",
       "assets/FAQs-DP3_A7fQ.jpg",
       "assets/report_1-BGpuZ6fx.png",
       "assets/report_2-CQZSqJRN.png",

@@ -10,8 +10,8 @@ export default function HeaderLogo() {
 
   return (
     <div className="relative">
-      <img src={mobileLogo ||  header_logo_icon} alt="Veloura Care" className="lg:hidden" />
-      <img src={logo || header_logo } alt="Veloura Care" className="max-lg:hidden" />
+      {/* <img src={mobileLogo ||  header_logo_icon} alt="Veloura Care" className="lg:hidden" /> */}
+      <img src={logo || header_logo } alt="Veloura Care" className="" />
     </div>
   )
 }
